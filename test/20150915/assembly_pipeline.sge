@@ -5,10 +5,24 @@
 #$ -q node0
 #$ -S /bin/bash
 
+PREFIX=Fucus_vesiculosus_20150915
+ASSEMBLY=/nobackup/data11/Fucus_vesiculosus_genome_project/test/20150915/$PREFIX_novo.fa
+MAPPING=/state/partition2/tmp/$PREFIX_ref.cas
+FILE1=/state/partition2/mtop/Fucus_data/Fucus_vesiculosus/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_1.fastq
+FILE2=/state/partition2/mtop/Fucus_data/Fucus_vesiculosus/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_2.fastq
+LOG=$PREFIX.log
+ERR=$PREFIX.err.log
+
 export TMPDIR=/state/partition2/tmp
 
-time clc_assembler --cpus 16 -o /nobackup/data11/Fucus_vesiculosus_genome_project/test/20150915/Fucus_vesiculosus_20150915_novo.fa -p fb ss 100 450 -q -i 7_150521_AC6VGLANXX_P1887_101_1.fastq 7_150521_AC6VGLANXX_P1887_101_2.fastq 2>> time.txt
+time clc_assembler -v --cpus 16 -o $ASSEMBLY -p fb ss 100 450 -q -i $FILE1 $FILE2 >> $LOG 2>> $ERR
 
-time clc_mapper --cpus 16 -o /nobackup/data11/Fucus_vesiculosus_genome_project/test/20150915/Fucus_vesiculosus_20150915_ref.cas -p fb ss 100 450 -q -i 7_150521_AC6VGLANXX_P1887_101_1.fastq 7_150521_AC6VGLANXX_P1887_101_2.fastq -d Fucus_vesiculosus_20150915_novo.fa 2>> time.txt
+time clc_mapper --cpus 16 -o $MAPPING -p fb ss 100 450 -q -i $FILE1 $FILE2 -d $ASSEMBLY >> $LOG 2>> $ERR
 
-time clc_mapping_info -c -n Fucus_vesiculosus_20150915_ref.cas 2>> time.txt
+clc_mapping_info -c -n $MAPPING 
+
+clc_sequence_info -l -k -n $ASSEMBLY > $PREFIX_seqInfo.txt
+clc_sequence_info -l -k -n -c 1000 $ASSEMBLY > $PREFIX_seqInfo-1000.txt
+clc_sequence_info -l -k -n -c 2000 $ASSEMBLY > $PREFIX_seqInfo-2000.txt
+clc_sequence_info -l -k -n -c 5000 $ASSEMBLY > $PREFIX_seqInfo-5000.txt
+clc_sequence_info -l -k -n -c 10000 $ASSEMBLY > $PREFIX_seqInfo-10000.txt
