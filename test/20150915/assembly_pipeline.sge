@@ -15,12 +15,20 @@ ERR=$PREFIX.err.log
 
 export TMPDIR=/state/partition2/tmp
 
+date >> $LOG
+echo "Starting clc_assembly analysis" >> $LOG
 time clc_assembler -v --cpus 16 -o $ASSEMBLY -p fb ss 100 450 -q -i $FILE1 $FILE2 >> $LOG 2>> $ERR
 
+date >> $LOG
+echo "Starting clc_mapper analysis" >> $LOG
 time clc_mapper --cpus 16 -o $MAPPING -p fb ss 100 450 -q -i $FILE1 $FILE2 -d $ASSEMBLY >> $LOG 2>> $ERR
 
-clc_mapping_info -c -n $MAPPING 
+date >> $LOG
+echo "Starting clc_mapping_info analysis" >> $LOG
+clc_mapping_info -c -n $MAPPING
 
+date >> $LOG
+echo "Starting clc_sequence_info analyses" >> $LOG
 clc_sequence_info -l -k -n $ASSEMBLY > $PREFIX_seqInfo.txt
 clc_sequence_info -l -k -n -c 1000 $ASSEMBLY > $PREFIX_seqInfo-1000.txt
 clc_sequence_info -l -k -n -c 2000 $ASSEMBLY > $PREFIX_seqInfo-2000.txt
