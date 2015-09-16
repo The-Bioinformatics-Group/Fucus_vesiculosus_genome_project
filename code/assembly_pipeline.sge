@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#$ -cwd
+#$ -j y
+#$ -q node0
+#$ -S /bin/bash
+
+export TMPDIR=/state/partition2/tmp
+
+time clc_assembler --cpus 16 -o /nobackup/data11/Fucus_vesiculosus_genome_project/test/20150915/Fucus_vesiculosus_20150915_novo.fa -p fb ss 100 450 -q -i 7_150521_AC6VGLANXX_P1887_101_1.fastq 7_150521_AC6VGLANXX_P1887_101_2.fastq 2>> time.txt
+
+time clc_mapper --cpus 16 -o /nobackup/data11/Fucus_vesiculosus_genome_project/test/20150915/Fucus_vesiculosus_20150915_ref.cas -p fb ss 100 450 -q -i 7_150521_AC6VGLANXX_P1887_101_1.fastq 7_150521_AC6VGLANXX_P1887_101_2.fastq -d Fucus_vesiculosus_20150915_novo.fa 2>> time.txt
+
+time clc_mapping_info -c -n Fucus_vesiculosus_20150915_ref.cas 2>> time.txt
