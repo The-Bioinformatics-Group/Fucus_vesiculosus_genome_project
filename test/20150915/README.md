@@ -2,10 +2,10 @@
 First analysis of the new dataset. Do we continue sequencing from the DNA that was used for this dataset?
 
 # Result
-Read count:          493722666
-Nucleotide count:  60931013362
-Word size:                  26
-Bubble size:                50
+* Read count:          493722666
+* Nucleotide count:  60931013362
+* Word size:                  26
+* Bubble size:                50
 
 
 (If you insist...)
