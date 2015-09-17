@@ -6,31 +6,31 @@
 #$ -S /bin/bash
 
 PREFIX=Fucus_vesiculosus_20150915
-ASSEMBLY=/nobackup/data11/Fucus_vesiculosus_genome_project/test/20150915/$PREFIX_novo.fa
-MAPPING=/state/partition2/tmp/$PREFIX_ref.cas
+ASSEMBLY=/nobackup/data11/Fucus_vesiculosus_genome_project/test/20150915/${PREFIX}_novo.fa
+MAPPING=/state/partition2/tmp/${PREFIX_ref}.cas
 FILE1=/state/partition2/mtop/Fucus_data/Fucus_vesiculosus/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_1.fastq
 FILE2=/state/partition2/mtop/Fucus_data/Fucus_vesiculosus/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_2.fastq
-LOG=$PREFIX.log
-ERR=$PREFIX.err.log
+LOG=${PREFIX}.log
+ERR=${PREFIX}.err.log
 
 export TMPDIR=/state/partition2/tmp
 
-date >> $LOG
+#date >> $LOG
 echo "Starting clc_assembly analysis" >> $LOG
-time clc_assembler -v --cpus 16 -o $ASSEMBLY -p fb ss 100 450 -q -i $FILE1 $FILE2 >> $LOG 2>> $ERR
+echo clc_assembler -v --cpus 16 -o $ASSEMBLY -p fb ss 100 450 -q -i $FILE1 $FILE2 >> $LOG 2>> $ERR
 
 date >> $LOG
 echo "Starting clc_mapper analysis" >> $LOG
-time clc_mapper --cpus 16 -o $MAPPING -p fb ss 100 450 -q -i $FILE1 $FILE2 -d $ASSEMBLY >> $LOG 2>> $ERR
+echo clc_mapper --cpus 16 -o $MAPPING -p fb ss 100 450 -q -i $FILE1 $FILE2 -d $ASSEMBLY >> $LOG 2>> $ERR
 
 date >> $LOG
 echo "Starting clc_mapping_info analysis" >> $LOG
-clc_mapping_info -c -n $MAPPING
+echo clc_mapping_info -c -n $MAPPING
 
 date >> $LOG
-echo "Starting clc_sequence_info analyses" >> $LOG
-clc_sequence_info -l -k -n $ASSEMBLY > $PREFIX_seqInfo.txt
-clc_sequence_info -l -k -n -c 1000 $ASSEMBLY > $PREFIX_seqInfo-1000.txt
-clc_sequence_info -l -k -n -c 2000 $ASSEMBLY > $PREFIX_seqInfo-2000.txt
-clc_sequence_info -l -k -n -c 5000 $ASSEMBLY > $PREFIX_seqInfo-5000.txt
-clc_sequence_info -l -k -n -c 10000 $ASSEMBLY > $PREFIX_seqInfo-10000.txt
+ echo "Starting clc_sequence_info analyses" >> $LOG
+echo clc_sequence_info -l -k -n $ASSEMBLY > $PREFIX_seqInfo.txt
+echo clc_sequence_info -l -k -n -c 1000 $ASSEMBLY > $PREFIX_seqInfo-1000.txt
+echo clc_sequence_info -l -k -n -c 2000 $ASSEMBLY > $PREFIX_seqInfo-2000.txt
+echo clc_sequence_info -l -k -n -c 5000 $ASSEMBLY > $PREFIX_seqInfo-5000.txt
+echo clc_sequence_info -l -k -n -c 10000 $ASSEMBLY > $PREFIX_seqInfo-10000.txt
