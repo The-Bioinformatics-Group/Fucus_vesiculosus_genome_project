@@ -3,8 +3,9 @@
 *.fastq
 *.gz
 
-# Don't track any files in "data"
+# Don't track any files in "data" or "assemblies"
 data/**
+assemblies/**
 
 # misc
 *~
