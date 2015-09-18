@@ -1,5 +1,4 @@
-query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, query length, subject
-length
+query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, query length, subject length
 contig_310	contig_4870	99.92	29359	12	5	31093	60441	29358	1	0.0	5.408e+04	74765	60173
 contig_48547	contig_105441	99.30	11923	57	8	6686	18582	6218	18140	0.0	2.153e+04	62412	32272
 contig_26732	contig_834517	88.02	409	49	0	33094	33502	422	14	4e-133	 484	47176	422
