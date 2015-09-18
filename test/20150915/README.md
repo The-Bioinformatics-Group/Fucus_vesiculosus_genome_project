@@ -13,3 +13,5 @@ First analysis of the new dataset. Do we continue sequencing from the DNA that w
 `[mtop@albiorix 20150915]$ N50.pl Fucus_vesiculosus_20150915_novo.fa
 N50: 857`
 
+# Notes
+There was an error in the script creating the path to the clc_mapping output file. The two analyses running simultaniously last night was therefore writing to the same .cas file. The mapping step was therefore terminated and no stats for coverage or clc_sequence_info output is therefore available.
