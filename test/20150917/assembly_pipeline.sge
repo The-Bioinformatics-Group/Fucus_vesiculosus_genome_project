@@ -6,7 +6,7 @@
 #$ -S /bin/bash
 
 PREFIX=Fucus_vesiculosus_20150917
-ASSEMBLY=/nobackup/data11/Fucus_vesiculosus_genome_project/test/20150915/${PREFIX}_novo.fa
+ASSEMBLY=/nobackup/data11/Fucus_vesiculosus_genome_project/test/20150917/${PREFIX}_novo.fa
 MAPPING=/state/partition2/tmp/${PREFIX_ref}.cas
 FILE1=/state/partition2/mtop/Fucus_data/Fucus_vesiculosus/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_1.fastq
 FILE2=/state/partition2/mtop/Fucus_data/Fucus_vesiculosus/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_2.fastq
