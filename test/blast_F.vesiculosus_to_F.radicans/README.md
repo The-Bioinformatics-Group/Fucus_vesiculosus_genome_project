@@ -1,5 +1,5 @@
 # Introduction
-I've extracted the 100 longest sequences from the [F. vesiculosus assembly 20150915](https://github.com/mtop/Fucus_vesiculosus_genome_project/tree/master/test/20150915) and BLASTed them to the [F. radicans assembly 20150915](https://github.com/mtop/Fucus_radicans_genome_project/tree/master/test/20150915) and extracted the similarity scores.
+I've extracted the 100 longest sequences from the [F. vesiculosus assembly 20150915](https://github.com/mtop/Fucus_vesiculosus_genome_project/tree/master/test/20150915) and BLASTed them to the [F. radicans assembly 20150915](https://github.com/mtop/Fucus_radicans_genome_project/tree/master/test/20150915) and extracted the results from the best match for each sequence.
 
 # Material and methods
 The grep function of fp.py is currently not working well, so the 100 longest sequences where extracted usign the following method:
