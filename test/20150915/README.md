@@ -6,6 +6,7 @@ First analysis of the new dataset. Do we continue sequencing from the DNA that w
 * Nucleotide count:  60931013362
 * Word size:                  26
 * Bubble size:                50
+* Number of contigs:	 1428440
 
 
 (If you insist...)
