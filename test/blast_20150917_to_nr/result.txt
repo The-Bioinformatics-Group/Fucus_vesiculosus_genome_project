@@ -1,0 +1,18 @@
+contig_310	Chloroplast
+contig_48547	Fucus
+contig_26732		Bacterial
+contig_10940			Aplysia californica
+contig_97606			No hits found
+contig_16338		Bact
+contig_312	Chloroplast
+contig_22896	Fucus
+contig_73963	Fucus
+contig_23052			Oncorhynchus mykiss
+contig_152677		Bacteria
+contig_21093	Fucus
+contig_9550			Aplysia californica
+contig_146281		Bact
+contig_15246	Fucus
+contig_861	Mitochondria
+
+
