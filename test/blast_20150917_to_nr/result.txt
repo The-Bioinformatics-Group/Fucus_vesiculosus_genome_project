@@ -92,6 +92,42 @@ contig_156088	Fucus
 contig_186172	Fucus		Glycine max
 contig_134035			Bombyx mori
 contig_66737	Fucus
+contig_226229	Fucus
+contig_38849	Fucus
+contig_379405		Bact
+contig_47761		Bact
+contig_34305	Fucus
+contig_81715	Fucus
+contig_116957	Fucus?
+contig_99131	Fucus
+contig_162275	Fucus
+contig_24949		Bact
+contig_51984	Fucus
+contig_61534			No hits found
+contig_105639			Ancylostoma
+contig_25566	Fucus
+contig_542902		Bact
+contig_173860	Fucus
+contig_62918			Latimeria chalumnae
+contig_110180			No hits found
+contig_35695		Bact
+contig_50235			No hits found
+contig_50512		Bact
+contig_20466		Bact
+contig_15242		Bact
+contig_52553	Fucus
+contig_40622	Fucus
+contig_83814	Fucus
+contig_463673		Bact
+contig_22390			Vitis vinifera
+contig_357818		Bact
+contig_203633	Fucus
+contig_35816			No hits found
+contig_151493		Bact
+contig_18181			No hits found
+contig_10356		Bact
+contig_154956		Bact
+contig_108483			Aplysia californica
 
 
 
