@@ -46,5 +46,18 @@ Identity Length
 97.76	4278
 98.14	7791
 ```
-* Bacterial content F. vesiculosus assembly
+
+### Bacterial content in the F. vesiculosus assembly
+The 130 longest contigs in the [20150917](https://github.com/mtop/Fucus_vesiculosus_genome_project/tree/master/test/20150917) assembly was BLASTed to the NCBI non-redundant database (that contains amino acid sequences).
+```
+Category	Fraction of the 130 longest contigs
+Fucus		35%
+Bacteria	27%
+No hits found	20% (most likely Fucus)
+Other		18% (most likely bacterial)
+```
+(See [result.txt](https://github.com/mtop/Fucus_vesiculosus_genome_project/blob/master/test/blast_20150917_to_nr/result.txt) for more details).
+
+
+
 
