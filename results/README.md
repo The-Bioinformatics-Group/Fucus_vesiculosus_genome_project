@@ -53,7 +53,7 @@ The 130 longest contigs in the [20150917](https://github.com/mtop/Fucus_vesiculo
 Category		Fraction of the 130 longest contigs
 Fucus			35%
 Bacteria		27%
-No hits found		20% (most likely Fucus)
+No hits found	20% (most likely Fucus)
 Other			18% (most likely bacterial)
 ```
 (See [result.txt](https://github.com/mtop/Fucus_vesiculosus_genome_project/blob/master/test/blast_20150917_to_nr/result.txt) for more details).
