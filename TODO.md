@@ -6,4 +6,4 @@
 * Estimate the bacterial content of the reads (Find bacterial contigs, mapp reads back to the contigs, count)
 * The preqc report indicates that there is a lot of errors in the reads. Either filter/trim more or do error correction.
 * Estimate coverage of the bacterial genomes.
-* Run Kracken on the data.
+* Run Kraken on the data.
