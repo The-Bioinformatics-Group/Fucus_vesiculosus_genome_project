@@ -1,0 +1,24 @@
+contig_559	Chloroplast
+contig_30883	Fucus/Bact
+contig_22483	Fucus
+contig_27090	?
+contig_45737	***** No hits found *****
+contig_23760	?
+contig_182	?
+contig_9520	***** No hits found *****
+contig_403	Chloroplast
+contig_13639	?
+contig_3355	?
+contig_27884	***** No hits found *****
+contig_6835	Fucus
+contig_21174	?
+contig_7743	Fucus
+contig_47961	***** No hits found *****
+contig_49481	Bact
+contig_152	Mitochondrion
+contig_58038	***** No hits found *****
+contig_22013	***** No hits found *****
+contig_22641	?
+contig_8247	Fucus
+
+
