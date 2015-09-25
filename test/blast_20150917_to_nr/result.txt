@@ -480,6 +480,106 @@ contig_15073	?
 contig_60173	?
 contig_2096	?
 contig_18101	***** No hits found *****
+contig_28656	Fucus
+contig_69645	Fucus
+contig_20900	Fucus?
+contig_10139	***** No hits found *****
+contig_27987	Fucus
+contig_28086	Bact?
+contig_51460	?
+contig_57538	Fucus
+contig_43825	Fucus
+contig_63533	?
+contig_8091	***** No hits found *****
+contig_41448	Fucus
+contig_13454	?
+contig_19203	?
+contig_45683	?
+contig_39394	Fucus
+contig_15288	Fucus
+contig_70038	Fucus
+contig_54918	***** No hits found *****
+contig_8049	***** No hits found *****
+contig_54766	Bact
+contig_32921	***** No hits found *****
+contig_52051	?
+contig_18485	***** No hits found *****
+contig_42274	?
+contig_29927	Bact?
+contig_32600	?
+contig_69800	***** No hits found *****
+contig_24974	?
+contig_15644	Fucus
+contig_37424	Bact
+contig_71433	***** No hits found *****
+contig_46216	***** No hits found *****
+contig_61479	Fucus
+contig_58440	Fucus
+contig_35488	Fucus
+contig_1939	Fucus
+contig_17214	Fucus
+contig_40330	?
+contig_8907	?
+contig_77105	?
+contig_24374	***** No hits found *****
+contig_69081	***** No hits found *****
+contig_40672	***** No hits found *****
+contig_5095	***** No hits found *****
+contig_11159	?
+contig_31365	Fucus
+contig_6112	***** No hits found *****
+contig_54869	?
+contig_3967	?
+contig_76000	***** No hits found *****
+contig_26177	Fucus
+contig_19651	Fucus
+contig_43430	?
+contig_75814	***** No hits found *****
+contig_16706	?
+contig_74272	***** No hits found *****
+contig_23271	Bact
+contig_55324	?
+contig_40336	Fucus
+contig_47314	?
+contig_30788	?
+contig_36969	?
+contig_10590	?
+contig_62867	***** No hits found *****
+contig_42142	Fucus
+contig_28049	Fucus
+contig_9326	?
+contig_2888	Fucus
+contig_18557	Bact?
+contig_55524	?
+contig_40840	?
+contig_27632	***** No hits found *****
+contig_26011	Fucus
+contig_56428	?
+contig_6427	?
+contig_441	?
+contig_7648	?
+contig_1159	***** No hits found *****
+contig_74359	Fucus
+contig_60148	Fucus
+contig_27276	Fucus
+contig_37914	Bact?
+contig_502	***** No hits found *****
+contig_5039	***** No hits found *****
+contig_60027	?
+contig_51338	?
+contig_51338	***** No hits found *****
+contig_7404	***** No hits found *****
+contig_10174	?
+contig_57921	***** No hits found *****
+contig_40365	?
+contig_25572	Fucus
+contig_469	***** No hits found *****
+contig_66248	***** No hits found *****
+contig_17704	?
+contig_58642	?
+contig_6668	?
+contig_44186	Fucus
+contig_42187	?
 
 
 
