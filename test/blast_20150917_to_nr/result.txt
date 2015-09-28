@@ -964,14 +964,39 @@ contig_67970	Fucus
 contig_6030	?
 contig_15416	?
 contig_47555	?
-
-
-
-
-
-
-
-
-
-
-
+contig_71119	Fucus
+contig_6495	Bact
+contig_11915	Bact
+contig_13797	Bact?
+contig_22191	***** No hits found *****
+contig_2929	Bact
+contig_23168	Bact?
+contig_49557	?
+contig_15451	Fucus
+contig_61609	***** No hits found *****
+contig_2054	Fucus
+contig_10645	***** No hits found *****
+contig_73716	?
+contig_51333	?
+contig_18641	***** No hits found *****
+contig_41316	?
+contig_34561	Fucus
+contig_6713	Fucus
+contig_34725	?
+contig_42610	?
+contig_64897	Fucus
+contig_7685	Fucus
+contig_54437	***** No hits found *****
+contig_53296	?
+contig_30740	Fucus
+contig_48108	***** No hits found *****
+contig_55757	?
+contig_19752	***** No hits found *****
+contig_55933	***** No hits found *****
+contig_9177	***** No hits found *****
+contig_5576	***** No hits found *****
+contig_22785	?
+contig_67501	?
+contig_49896	***** No hits found *****
+contig_43772	Fucus
+contig_5748	Bact
