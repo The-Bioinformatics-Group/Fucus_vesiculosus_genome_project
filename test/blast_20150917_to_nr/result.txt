@@ -736,6 +736,235 @@ contig_66592	***** No hits found *****
 contig_10714	Fucus
 contig_68250	***** No hits found *****
 contig_1440	Fucus
+contig_58202	Fucus
+contig_18261	?
+contig_56462	***** No hits found *****
+contig_4656	***** No hits found *****
+contig_71969	?
+contig_29662	?
+contig_16744	?
+contig_12462	***** No hits found *****
+contig_4609	Fucus
+contig_2329	Fucus
+contig_25466	Fucus
+contig_29201	Fucus
+contig_20613	?
+contig_5077	***** No hits found *****
+contig_21758	***** No hits found *****
+contig_8966	***** No hits found *****
+contig_76398	Fucus
+contig_26103	?
+contig_32511	?
+contig_53732	Fucus
+contig_24112	?
+contig_11787	?
+contig_7675	Fucus
+contig_35672	?
+contig_58208	Bact?
+contig_59968	?
+contig_11880	***** No hits found *****
+contig_65270	?
+contig_76558	***** No hits found *****
+contig_21937	***** No hits found *****
+contig_37411	Fucus
+contig_57308	?
+contig_871	Fucus
+contig_35681	?
+contig_76052	***** No hits found *****
+contig_32845	Fucus
+contig_51772	?
+contig_7289	?
+contig_67405	Fucus
+contig_15266	Fucus
+contig_53247	***** No hits found *****
+contig_33223	?
+contig_1725	Fucus
+contig_29817	Fucus
+contig_51002	?
+contig_46725	Fucus
+contig_6543	Fucus
+contig_60399	***** No hits found *****
+contig_10310	Fucus
+contig_15140	?
+contig_69686	***** No hits found *****
+contig_1140	***** No hits found *****
+contig_56814	?
+contig_51821	?
+contig_69890	Fucus
+contig_13936	Bact
+contig_20988	Fucus
+contig_76033	?
+contig_1679	?
+contig_3085	***** No hits found *****
+contig_24136	?
+contig_18649	?
+contig_54181	?
+contig_6062	Fucus
+contig_64663	Bact
+contig_1453	***** No hits found *****
+contig_76426	Fucus
+contig_1724	Fucus
+contig_10722	***** No hits found *****
+contig_42832	Fucus
+contig_4034	?
+contig_68467	Fucus
+contig_26295	Fucus
+contig_66591	Fucus
+contig_18903	Bact
+contig_46294	?
+contig_56183	?
+contig_35180	***** No hits found *****
+contig_34935	?
+contig_57486	?
+contig_59595	?
+contig_23959	?
+contig_41347	?
+contig_30820	***** No hits found *****
+contig_76093	?
+contig_47491	Bact?
+contig_44735	?
+contig_20320	?
+contig_76541	***** No hits found *****
+contig_1412	?
+contig_53548	?
+contig_15372	Fucus
+contig_28402	***** No hits found *****
+contig_20928	Fucus
+contig_49652	?
+contig_38005	***** No hits found *****
+contig_2494	?
+contig_28374	***** No hits found *****
+contig_72921	Fucus
+contig_64238	Fucus
+contig_2021	Fucus
+contig_75053	Bact
+contig_46331	Bact	(Ectothiorhodospira sp. PHS-1)
+contig_41688	***** No hits found *****
+contig_24267	?
+contig_38950	?
+contig_18440	Fucus
+contig_48041	Fucus
+contig_1143	Bact
+contig_38099	Fucus
+contig_61968	***** No hits found *****
+contig_12489	?
+contig_61416	Fucus
+contig_34094	Fucus
+contig_20186	***** No hits found *****
+contig_11386	?
+contig_10022	Fucus?
+contig_41488	?
+contig_66279	***** No hits found *****
+contig_13242	?
+contig_25998	?
+contig_2075	Fucus?
+contig_34109	?
+contig_46968	Fucus
+contig_42745	Fucus
+contig_483	Bact?
+contig_61626	***** No hits found *****
+contig_45495	?
+contig_57660	***** No hits found *****
+contig_48811	Fucus
+contig_41803	Fucus
+contig_2960	?
+contig_21675	***** No hits found *****
+contig_66914	***** No hits found *****
+contig_15824	Fucus
+contig_15543	***** No hits found *****
+contig_35172	***** No hits found *****
+contig_34622	***** No hits found *****
+contig_44305	***** No hits found *****
+contig_50834	Bact
+contig_68892	Fucus
+contig_23851	Fucus
+contig_22282	Fucus
+contig_6303	Fucus
+contig_73364	***** No hits found *****
+contig_16442	?
+contig_10919	?
+contig_19935	***** No hits found *****
+contig_126	?
+contig_59726	***** No hits found *****
+contig_56566	?
+contig_56623	Bact
+contig_63494	Bact
+contig_33304	Fucus
+contig_57831	Fucus
+contig_5071	***** No hits found *****
+contig_11790	Bact
+contig_15270	Fucus
+contig_75127	***** No hits found *****
+contig_8389	?
+contig_913	***** No hits found *****
+contig_62093	?
+contig_26209	?
+contig_47505	Fucus
+contig_44567	***** No hits found *****
+contig_25422	?
+contig_17212	Fucus
+contig_53450	?
+contig_76684	?
+contig_28477	Fucus
+contig_75339	?
+contig_72135	***** No hits found *****
+contig_29046	?
+contig_45625	Fucus
+contig_37771	Fucus
+contig_53452	?
+contig_5423	***** No hits found *****
+contig_45985	?
+contig_66661	***** No hits found *****
+contig_43453	?
+contig_17260	Fucus
+contig_13004	***** No hits found *****
+contig_64296	Fucus
+contig_42675	?
+contig_51693	Fucus
+contig_40403	***** No hits found *****
+contig_16620	?
+contig_32796	Bact?
+contig_301	?
+contig_57970	?
+contig_36190	?
+contig_22146	Fucus
+contig_3168	?
+contig_30310	Fucus
+contig_40901	Fucus
+contig_30800	Bact (Thiocystis violascens)
+contig_69291	***** No hits found *****
+contig_14544	?
+contig_21798	***** No hits found *****
+contig_74472	Fucus
+contig_19190	Fucus
+contig_51908	***** No hits found *****
+contig_47547	?
+contig_30950	***** No hits found *****
+contig_34655	Bact
+contig_72222	***** No hits found *****
+contig_69559	Fucus
+contig_5125	Fucus
+contig_48965	Fucus
+contig_61505	Fucus
+contig_18190	?
+contig_15845	?
+contig_42378	?
+contig_62438	***** No hits found *****
+contig_25935	Fucus
+contig_24098	Fucus
+contig_57125	Fucus
+contig_41202	Fucus
+contig_56101	***** No hits found *****
+contig_50703	Fucus
+contig_48880	Fucus
+contig_74835	***** No hits found *****
+contig_2438	?
+contig_19020	***** No hits found *****
+contig_67970	Fucus
+contig_6030	?
+contig_15416	?
+contig_47555	?
+
 
 
 
