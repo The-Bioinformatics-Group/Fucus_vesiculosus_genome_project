@@ -12,5 +12,11 @@ The blast results have been divided into the following four categories:
 
 Note: Contigs in category "No hits found" are most likely of eukaryotic origin as the average bacterial gene length is 950 bp (ref.) and bacterial genes are ususally densly packed. Hence, I would expect that 5000 bp of a bacterial sequence would contain a coding region, and hence find a blast match.
 
+### Update 2015-09-28
+The previous analysis resulted in many contigs not having a blast match in the first 5000 bp. I'm therefore BLASTing the full length sequences of these contigs to the nr database. The results can be found in directory [no_hits_found.](https://github.com/mtop/Fucus_vesiculosus_genome_project/tree/master/test/blast_20150917_to_nr/no_hits_found) This analysis is very slow (why only 5000 bp was blasted in the first analysis) and is expected to finish late Wednesday evening (2015-09-30). 
+
+### Update 2015-09-29
+150 of 277 sequences have been analysed in 18 hours.
+
 
 
