@@ -27,3 +27,13 @@ Here are the updated results after blasting the full lengt sequences in chategor
 * Bact: 8.4%
 * ?: 48.8%
 * No hits found: 5.2%
+
+# Result III
+Also the full length contigs in chategory **?** was blasted to the NCBI nr database. Here is the updated table that also includes this result.
+
+* Fucus: 43.9%
+* Bact: 8.4%
+* ?: 41.1%
+* No hits found: 5.7%
+
+**Note:** Very few bacterial sequences where found among the 1002 longest contigs in the [20150917 assembly.](https://github.com/mtop/Fucus_vesiculosus_genome_project/tree/master/test/20150917) Also, very few contigs had no BLAST match to the sequences in the NCBI nr database. Many of the contigs in chategory **?** had poor matches to species like Aplysia californica, Oryza sativa, Condrus cripspus etc. (e.g. see the [this]( blast result). Intergenic regions of Fucus vesiculosus will probably fall in this chategory as they may contain ORF's that would result in poor blast matches. The number of Fucus vesiculosus contigs is therefore likely underestimated to some degree.
