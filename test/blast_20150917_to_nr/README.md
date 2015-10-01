@@ -5,7 +5,7 @@ Blasting the first 5000 bp of the 1002 longest contigs from assembly 20150917 to
 
 The blast results have been divided into the following four categories:
 
-* Fucus (28.9%): Best match to Ectocarpus siliculosus or Fucus vesiculosus
+* Fucus (28.9%): Best match to *Ectocarpus siliculosus* or *Fucus vesiculosus*
 * Bact (8.1%): Good match(es) to any bacterial sequence
 * ? (36.1%: Ambigous blast result. Often matches to many different types of organisms.
 * No hits found (27.7%)
@@ -36,4 +36,4 @@ Also the full length contigs in chategory **?** was blasted to the NCBI nr datab
 * ?: 41.1%
 * No hits found: 5.7%
 
-**Note:** Very few bacterial sequences where found among the 1002 longest contigs in the [20150917 assembly.](https://github.com/mtop/Fucus_vesiculosus_genome_project/tree/master/test/20150917) Also, very few contigs had no BLAST match to the sequences in the NCBI nr database. Many of the contigs in chategory **?** had poor matches to species like Aplysia californica, Oryza sativa, Condrus cripspus etc. (e.g. see the [this](https://github.com/mtop/Fucus_vesiculosus_genome_project/blob/master/test/blast_20150917_to_nr/F_vesiculosus_20150917_1000-longest_to_nr.BLASTx.txt) blast result for more details). Intergenic regions of Fucus vesiculosus will probably fall in this chategory as they may contain ORF's that would result in poor blast matches. The number of Fucus vesiculosus contigs is therefore likely underestimated to some degree.
+**Note:** Very few bacterial sequences where found among the 1002 longest contigs in the [20150917 assembly.](https://github.com/mtop/Fucus_vesiculosus_genome_project/tree/master/test/20150917) Also, very few contigs had no BLAST match to the sequences in the NCBI nr database. Many of the contigs in chategory **?** had poor matches to species like *Aplysia californica, Oryza sativa, Condrus cripspus* etc. (e.g. see the [this](https://github.com/mtop/Fucus_vesiculosus_genome_project/blob/master/test/blast_20150917_to_nr/F_vesiculosus_20150917_1000-longest_to_nr.BLASTx.txt) blast result for more details). Intergenic regions of *F. vesiculosus* will probably fall in this chategory as they may contain ORF's that would result in poor blast matches. The number of *F. vesiculosus* contigs is therefore likely underestimated to some degree.
