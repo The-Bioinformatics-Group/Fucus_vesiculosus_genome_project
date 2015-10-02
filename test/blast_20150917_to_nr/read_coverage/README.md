@@ -12,3 +12,6 @@ There are still to many contigs in the unknown\_contigs.txt file. Can't figure i
 1067 total
 ```
 
+# Result
+Mean and median read coverage for contigs in the four chategories (calculated using R).
+* Fucus: 541	296
