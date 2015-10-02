@@ -79,3 +79,4 @@ contig_13797
 contig_2929
 contig_23168
 contig_5748
+contig_52051
