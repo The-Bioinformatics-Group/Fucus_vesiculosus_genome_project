@@ -14,7 +14,10 @@ There are still to many contigs in the unknown\_contigs.txt file. Can't figure i
 
 # Result
 Mean and median read coverage for contigs in the four chategories (calculated using R).
-* Fucus: 541	296
-* Bacterial: 627	274
-* ?: 554	236
-* No hits found: 440	263
+
+| Chategory | Mean | Median |
+|-----------|------|--------|
+| Fucus     | 541  | 296    |
+| Bacterial | 627  | 274    |
+| ?         | 554  | 236    |
+| No hits   | 440  | 263    |
