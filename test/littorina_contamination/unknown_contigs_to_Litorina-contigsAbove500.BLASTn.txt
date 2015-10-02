@@ -1,0 +1,1459 @@
+# BLASTN 2.2.28+
+# Query: contig_27090
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_23760
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_182
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_13639
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_3355
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_21174
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_22641
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_33624
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_61976
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_2267
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_56475
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_32363
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_16433
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_41781
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_23670
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_21474
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_69657
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_15253
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_17513
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_25380
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_34733
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_63279
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_31401
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_66676
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_68398
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_26144
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_374
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_30502
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_18658
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_55014
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_12855
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_13168
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_72613
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_39355
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_53608
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_19326
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_5337
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_15564
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_30215
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_10502
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_3830
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_27493
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_70393
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_37706
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_12594
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_40284
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_49030
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_21569
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_40175
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_59682
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_18574
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_6863
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_15257
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_36971
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_42220
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_58901
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_12630
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_67518
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_72246
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_37824
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_21540
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_12264
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_39276
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_70759
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_66473
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_26856
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_16075
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_21764
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_9071
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_63623
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_62542
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_51739
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_7387
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_13700
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_6766
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_22345
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_60022
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_19128
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_46983
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_28108
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_71247
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_10690
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_42260
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_20240
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_1467
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_29784
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_71526
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_17281
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_43300
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_41915
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_71543
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_13343
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_58632
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_26988
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_30219
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_11007
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_2033
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_75459
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_30277
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_62447
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_60050
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_62464
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_24316
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_11028
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_66131
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_51012
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_8779
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_52256
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_4047
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_62689
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_30751
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_15368
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_42908
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_25435
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_49073
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_18020
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_31189
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_50661
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_5356
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_45118
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_75947
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_13394
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_5758
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_16794
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_41779
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_7750
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_19833
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_49863
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_30165
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_13387
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_73913
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_34247
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_36755
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_16188
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_58639
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_16740
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_16817
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_2650
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_41521
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_23916
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_4674
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_44442
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_60566
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_5159
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_47851
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_34739
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_2712
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_75832
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_6193
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_60551
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_14535
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_69490
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_62583
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_13764
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_55704
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_36665
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_31913
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_27853
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_12066
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_32238
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_433
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_5427
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_61948
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_51394
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_32862
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_30794
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_67166
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_31755
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_32205
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_10961
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_58954
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_62888
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_72274
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_15073
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_60173
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_2096
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_51460
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_63533
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_13454
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_19203
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_45683
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_52051
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_42274
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_32600
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_24974
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_40330
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_8907
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_77105
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_11159
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_54869
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_3967
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_43430
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_16706
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_55324
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_47314
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_30788
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_36969
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_10590
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_9326
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_55524
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_40840
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_56428
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_6427
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_441
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_7648
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_60027
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_51338
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_10174
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_40365
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_17704
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_58642
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_6668
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_42187
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_42686
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_38205
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_14375
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_11685
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_12948
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_40774
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_18661
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_55212
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_23148
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_26444
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_11306
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_12021
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_56593
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_12757
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_4370
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_17130
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_24668
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_6288
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_26060
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_3916
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_13190
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_9591
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_15298
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_1266
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_47227
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_61021
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_480
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_2450
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_31517
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_60609
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_38383
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_60114
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_64691
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_49314
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_8183
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_11066
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_9318
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_52833
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_22203
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_1975
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_53482
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_20674
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_36675
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_67300
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_10895
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_19925
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_22680
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_11181
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_68816
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_4972
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_71848
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_34184
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_27865
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_24024
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, query length, subject length
+# 1 hits found
+contig_24024	49413251	100.00	28	0	0	11243	11270	426	453	6e-04	52.8	13153	538
+# BLASTN 2.2.28+
+# Query: contig_62115
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_63513
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_7482
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_18261
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_71969
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_29662
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_16744
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_20613
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_26103
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_32511
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_24112
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_11787
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_35672
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_59968
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_65270
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_57308
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_35681
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_51772
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_7289
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_33223
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_51002
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_15140
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_56814
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_51821
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_76033
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_1679
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_24136
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_18649
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_54181
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_4034
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_46294
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_56183
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_34935
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_57486
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, query length, subject length
+# 2 hits found
+contig_57486	50039225	94.29	35	2	0	10507	10541	103	69	2e-04	54.7	12579	1032
+contig_57486	50143629	100.00	28	0	0	10514	10541	1092	1119	6e-04	52.8	12579	1575
+# BLASTN 2.2.28+
+# Query: contig_59595
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_23959
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_41347
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_76093
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_44735
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_20320
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_1412
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_53548
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_49652
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_2494
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_24267
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_38950
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_12489
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_11386
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_41488
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_13242
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, query length, subject length
+# 1 hits found
+contig_13242	50187823	100.00	30	0	0	3033	3062	1638	1609	4e-05	56.5	12416	3233
+# BLASTN 2.2.28+
+# Query: contig_25998
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_34109
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_45495
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_2960
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, query length, subject length
+# 1 hits found
+contig_2960	50164527	100.00	28	0	0	1	28	3	30	6e-04	52.8	12359	1906
+# BLASTN 2.2.28+
+# Query: contig_16442
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_10919
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_126
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_56566
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_8389
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_62093
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_26209
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_25422
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_53450
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_76684
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_75339
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, query length, subject length
+# 2 hits found
+contig_75339	49522797	100.00	28	0	0	10191	10218	561	534	5e-04	52.8	12139	574
+contig_75339	49462693	100.00	28	0	0	10191	10218	528	501	5e-04	52.8	12139	553
+# BLASTN 2.2.28+
+# Query: contig_29046
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_53452
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_45985
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_43453
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_42675
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_16620
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_301
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_57970
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_36190
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_3168
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_14544
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_47547
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_18190
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_15845
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_42378
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_2438
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_6030
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_15416
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_47555
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_49557
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_73716
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_51333
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_41316
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_34725
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, query length, subject length
+# 1 hits found
+contig_34725	50174663	100.00	29	0	0	11595	11623	344	372	1e-04	54.7	11728	2201
+# BLASTN 2.2.28+
+# Query: contig_42610
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_53296
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_55757
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_22785
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLASTN 2.2.28+
+# Query: contig_67501
+# Database: ../../data/Littorina/contigsAbove500.fasta
+# 0 hits found
+# BLAST processed 361 queries
