@@ -37,3 +37,13 @@ Also the full length contigs in category **?** was blasted to the NCBI nr databa
 * No hits found: 5.7%
 
 **Note:** Very few bacterial sequences where found among the 1002 longest contigs in the [20150917 assembly.](https://github.com/mtop/Fucus_vesiculosus_genome_project/tree/master/test/20150917) Also, very few contigs had no BLAST match to the sequences in the NCBI nr database. Many of the contigs in category **?** had poor matches to species like *Aplysia californica, Oryza sativa, Condrus cripspus* etc. (e.g. see the [this](https://github.com/mtop/Fucus_vesiculosus_genome_project/blob/master/test/blast_20150917_to_nr/F_vesiculosus_20150917_1000-longest_to_nr.BLASTx.txt) blast result for more details). Intergenic regions of *F. vesiculosus* will probably fall in this category as they may contain ORF's that would result in poor blast matches. The number of *F. vesiculosus* contigs is therefore likely underestimated to some degree.
+
+# Result IV
+Mean and median read coverage for contigs in the four chategories (calculated using R). More details [here.](https://github.com/mtop/Fucus_vesiculosus_genome_project/tree/master/test/blast_20150917_to_nr/read_coverage)
+
+| Chategory | Mean | Median |
+|-----------|------|--------|
+| Fucus     | 541  | 296    |
+| Bacterial | 627  | 274    |
+| ?         | 554  | 236    |
+| No hits   | 440  | 263    |
