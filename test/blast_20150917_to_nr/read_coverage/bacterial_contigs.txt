@@ -80,3 +80,7 @@ contig_2929
 contig_23168
 contig_5748
 contig_52051
+contig_28537
+contig_27055
+contig_35968
+contig_5423
