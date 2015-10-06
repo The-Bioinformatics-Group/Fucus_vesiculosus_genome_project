@@ -7,3 +7,4 @@
 * The preqc report indicates that there is a lot of errors in the reads. Either filter/trim more or do error correction.
 * Estimate coverage of the bacterial genomes.
 * Run Kraken on the data.
+* Test DELLY (https://github.com/tobiasrausch/delly) using F. vesiculosus as reference and F. radicans paired end reds.
