@@ -47,10 +47,3 @@ Mean and median read coverage for contigs in the four chategories (calculated us
 | Bacterial | 627  | 274    |
 | ?         | 554  | 236    |
 | No hits   | 440  | 263    |
-
-### Test
-
-
-### TEST
-
-*This* **is** a [test](https://github.com/The-Bioinformatics-Group/Fucus_vesiculosus_genome_project/raw/master/test/blast_20150917_to_nr/word_cloud.pdf)
