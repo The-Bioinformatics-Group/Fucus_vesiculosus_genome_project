@@ -1,4 +1,4 @@
-74566 contig_559
+74566 contig_559	Chloroplst
 62357 contig_30883
 49052 contig_22483
 47566 contig_27090
