@@ -1,0 +1,2 @@
+NGI ID	Index	Lib Prep	Avg. FS	Lib QC
+P3719_201	ND006	A	350	PASSED
