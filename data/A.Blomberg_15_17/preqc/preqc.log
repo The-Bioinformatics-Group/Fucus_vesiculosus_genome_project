@@ -1,0 +1,31 @@
+Parameters:
+QualTrim: 0
+QualFilter: no filtering
+HardClip: 0
+Min length: 40
+Sample freq: 1
+PE Mode: 1
+Quality scaling: 2
+MinGC: 0
+MaxGC: 1
+Outfile: stdout
+Orphan file: none
+Discarding sequences with ambiguous bases
+Processing pe files best_practice_qc/P3719_201/fastq_trimmed/P3719_201_S1_L001_R1_001.fastq, best_practice_qc/P3719_201/fastq_trimmed/P3719_201_S1_L001_R2_001.fastq
+
+Preprocess stats:
+Reads parsed:   926428814
+Reads kept:     915748492 (0.988472)
+Reads failed primer screen:     106 (1.14418e-07)
+Bases parsed:   135137904314
+Bases kept:     134133482422 (0.992567)
+Number of incorrectly paired reads that were discarded: 0
+[timer - sga preprocess] wall clock: 8398.38s CPU: 5418.75s
+Building index for P3719_201.best_practice_qc.preprocessed.fastq in memory using ropebwt
+
+         done bwt construction, generating .sai file
+
+	 [timer - sga index] wall clock: 29461.15s CPU: 125547.27s
+	 Loading FM-index of P3719_201.best_practice_qc.preprocessed.fastq
+	 [timer - sga::preqc] wall clock: 11513.52s CPU: 60922.78s
+	 ./runPreqc.sh: line 12: sga-preqc-report.py: command not found
