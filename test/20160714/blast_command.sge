@@ -1,0 +1,9 @@
+#$ -q high_mem
+#$ -cwd
+#$ -S /bin/bash
+#$ -pe mpich 40
+
+QUERY=Fucus_vesiculosus_20160714_novo_LENGTH_SORTED-LONGEST.fa
+OUT=Fucus_vesiculosus_20160714_novo_LENGTH_SORTED-LONGEST_to_nr.BLASTx.txt
+
+blastx -query $QUERY -db /state/partition1/db/ncbi/nr -num_alignments 10 -num_threads $NSLOTS -out $OUT

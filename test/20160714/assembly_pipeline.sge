@@ -1,0 +1,42 @@
+#$ -cwd
+#$ -j y
+#$ -q node0
+#$ -S /bin/bash
+#$ -pe mpich 40
+
+PREFIX=Fucus_vesiculosus_20160714
+ASSEMBLY=${PREFIX}_novo.fa
+#MAPPING=/state/partition2/tmp/${PREFIX_ref}.cas
+MAPPING=/state/partition2/tmp/${PREFIX}.cas
+FILE1=/nobackup/data11/Fucus_vesiculosus_genome_project/data/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/P3719_201_S1_L001_R1_001.fastq
+FILE2=/nobackup/data11/Fucus_vesiculosus_genome_project/data/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/P3719_201_S1_L001_R2_001.fastq
+LOG=${PREFIX}.log
+ERR=${PREFIX}.err.log
+
+# Uncompress files
+gunzip /nobackup/data11/Fucus_vesiculosus_genome_project/data/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/*.gz
+
+export TMPDIR=/state/partition2/tmp
+
+#date >> $LOG
+echo "Starting clc_assembly analysis" >> $LOG
+time clc_assembler -v -w 64 --cpus $NSLOTS -o $ASSEMBLY -p fb ss 100 500 -q -i $FILE1 $FILE2 >> $LOG 2>> $ERR
+
+date >> $LOG
+echo "Starting clc_mapper analysis" >> $LOG
+time clc_mapper --cpus $NSLOTS -o $MAPPING -p fb ss 100 500 -q -i $FILE1 $FILE2 -d $ASSEMBLY >> $LOG 2>> $ERR
+
+date >> $LOG
+echo "Starting clc_mapping_info analysis" >> $LOG
+time clc_mapping_info -c -n $MAPPING
+
+date >> $LOG
+echo "Starting clc_sequence_info analyses" >> $LOG
+time clc_sequence_info -l -k -n $ASSEMBLY > ${PREFIX}_seqInfo.txt
+time clc_sequence_info -l -k -n -c 1000 $ASSEMBLY > ${PREFIX}_seqInfo-1000.txt
+time clc_sequence_info -l -k -n -c 2000 $ASSEMBLY > ${PREFIX}_seqInfo-2000.txt
+time clc_sequence_info -l -k -n -c 5000 $ASSEMBLY > ${PREFIX}_seqInfo-5000.txt
+time clc_sequence_info -l -k -n -c 10000 $ASSEMBLY > ${PREFIX}_seqInfo-10000.txt
+
+# Compress files
+gzip /nobackup/data11/Fucus_vesiculosus_genome_project/data/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/*
