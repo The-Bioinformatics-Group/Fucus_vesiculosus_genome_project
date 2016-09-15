@@ -1,0 +1,17 @@
+pipeline:
+ QCcontrol
+tools:
+ ['trimmomatic', 'fastqc', 'abyss']
+output: P3722_201
+projectName: A.Blomberg_15_20
+kmer: 35
+threads: 16
+genomeSize: 
+adapters: /lupus/ngi/sw/NouGAT/resources/nextera_linkers.txt
+libraries:
+ lib1:
+  pair1: /proj/ngi2016003/nobackup/NGI/DATA/A.Blomberg_15_20/P3722_201/B/160909_ST-E00266_0138_AH3C3WALXX/P3722_201_S1_L001_R1_001.fastq.gz
+  pair2: /proj/ngi2016003/nobackup/NGI/DATA/A.Blomberg_15_20/P3722_201/B/160909_ST-E00266_0138_AH3C3WALXX/P3722_201_S1_L001_R2_001.fastq.gz
+  orientation: outtie
+  insert: 6000
+  std: 900
