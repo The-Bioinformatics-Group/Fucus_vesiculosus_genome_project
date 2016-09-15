@@ -13,3 +13,7 @@ assemblies/**
 *.sh.po*
 *.sh.e*
 *.sh.o*
+*.sge.pe*
+*.sge.po*
+*.sge.e*
+*.sge.o*
