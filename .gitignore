@@ -18,3 +18,5 @@ test/**
 *.sge.po*
 *.sge.e*
 *.sge.o*
+
+runRsync.sh
