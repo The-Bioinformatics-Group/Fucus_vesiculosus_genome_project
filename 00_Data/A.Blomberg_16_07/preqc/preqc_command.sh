@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #$ -cwd
-#$ -q Annotation-2
+#$ -q Annotation-4
 #$ -S /bin/bash
 #$ -pe mpich 20
 
