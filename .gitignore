@@ -9,3 +9,7 @@ assemblies/**
 
 # misc
 *~
+*.sh.pe*
+*.sh.po*
+*.sh.e*
+*.sh.o*
