@@ -1,0 +1,27 @@
+Parameters:
+QualTrim: 0
+QualFilter: no filtering
+HardClip: 0
+Min length: 40
+Sample freq: 1
+PE Mode: 1
+Quality scaling: 2
+MinGC: 0
+MaxGC: 1
+Outfile: stdout
+Orphan file: none
+Discarding sequences with ambiguous bases
+Processing pe files /nobackup/data11/Fucus_vesiculosus_genome_project/data/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_1.fastq, /nobackup/data11/Fucus_vesiculosus_genome_project/data/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_2.fastq
+
+Preprocess stats:
+Reads parsed:	493722666
+Reads kept:	486201696 (0.984767)
+Reads failed primer screen:	101 (2.04568e-07)
+Bases parsed:	60931013362
+Bases kept:	60262218090 (0.989024)
+Number of incorrectly paired reads that were discarded: 0
+[timer - sga preprocess] wall clock: 5594.79s CPU: 2375.35s
+[timer - sga index] wall clock: 15554.52s CPU: 56804.44s
+Loading FM-index of Fucus_vesiculosus.preprocessed.fastq
+[timer - sga::preqc] wall clock: 7615.58s CPU: 39778.18s
+/usr/local/opt/python/lib/python2.7/site-packages/setuptools-5.4.2-py2.7.egg/pkg_resources.py:1049: UserWarning: /home/mtop/.python-eggs is writable by group/others and vulnerable to attack when used with get_resource_filename. Consider a more secure location (set with .set_extraction_path or the PYTHON_EGG_CACHE environment variable).
