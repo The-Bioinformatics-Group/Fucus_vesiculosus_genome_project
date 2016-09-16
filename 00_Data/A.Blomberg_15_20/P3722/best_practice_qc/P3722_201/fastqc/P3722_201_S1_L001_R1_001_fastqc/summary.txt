@@ -1,0 +1,12 @@
+PASS	Basic Statistics	P3722_201_S1_L001_R1_001.fastq.gz
+PASS	Per base sequence quality	P3722_201_S1_L001_R1_001.fastq.gz
+WARN	Per tile sequence quality	P3722_201_S1_L001_R1_001.fastq.gz
+PASS	Per sequence quality scores	P3722_201_S1_L001_R1_001.fastq.gz
+PASS	Per base sequence content	P3722_201_S1_L001_R1_001.fastq.gz
+PASS	Per sequence GC content	P3722_201_S1_L001_R1_001.fastq.gz
+PASS	Per base N content	P3722_201_S1_L001_R1_001.fastq.gz
+WARN	Sequence Length Distribution	P3722_201_S1_L001_R1_001.fastq.gz
+WARN	Sequence Duplication Levels	P3722_201_S1_L001_R1_001.fastq.gz
+PASS	Overrepresented sequences	P3722_201_S1_L001_R1_001.fastq.gz
+PASS	Adapter Content	P3722_201_S1_L001_R1_001.fastq.gz
+FAIL	Kmer Content	P3722_201_S1_L001_R1_001.fastq.gz
