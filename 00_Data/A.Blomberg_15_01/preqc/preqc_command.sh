@@ -6,7 +6,7 @@
 module load SGA/v0.10.15
 
 FILE1=../best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_1.fastq
-FILE2=../../best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_2.fastq
+FILE2=../best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_2.fastq
 PREPROCESSED=F_ves_A.Blomberg_15_01_180bp.preprocessed.fastq
 GENOME=F_ves_A.Blomberg_15_01_180bp.preprocessed.preqc
 
