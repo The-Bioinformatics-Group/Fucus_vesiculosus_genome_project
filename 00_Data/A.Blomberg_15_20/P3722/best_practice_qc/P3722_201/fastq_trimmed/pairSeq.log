@@ -1,0 +1,7 @@
+[mtop@albiorix fastq_trimmed]$ pairSeq.py filterPCRdupl_uniq1.FXT.fastq filterPCRdupl_uniq2.FXT.fastq
+[--] Building initial dictionary of sequence id's in first file.
+[--] Attempting memory garbage collection
+[--] Comparing id's in second file to the dictionary.
+[--] Comparing id's in first file to the dictionary
+[--] Check if sequences in 'pair' files are in the same order
+[op] 77324827 sequnce pairs are in order

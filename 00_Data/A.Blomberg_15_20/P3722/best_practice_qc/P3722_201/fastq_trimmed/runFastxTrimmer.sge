@@ -1,0 +1,6 @@
+#$ -cwd
+#$ -q Annotation-4
+#$ -S /bin/bash
+
+fastx_trimmer -Q33 -t 10 -i filterPCRdupl_uniq1.fastq -o filterPCRdupl_uniq1.FXT.fastq
+fastqc filterPCRdupl_uniq1.FXT.fastq
