@@ -1,0 +1,16 @@
+#$ -cwd
+#$ -pe mpich 20
+#$ -q Annotation-4
+#$ -S /bin/bash
+
+module load SGA/v0.10.15
+
+FILE1=filterPCRdupl_uniq1.fastq
+FILE2=filterPCRdupl_uniq2.fastq
+PREPROCESSED=A.Blomberg_15_20_filterPCRdupl.preprocessed.fastq
+GENOME=A.Blomberg_15_20_filterPCRdupl.preprocessed.preqc
+
+sga preprocess --pe-mode 1 $FILE1 $FILE2 > $PREPROCESSED
+sga index -a ropebwt --no-reverse -t $NSLOTS $PREPROCESSED
+sga preqc -t $NSLOTS $PREPROCESSED > $GENOME
+sga-preqc-report.py $GENOME /usr/local/packages/sga-0.10.15/src/examples/preqc/*.preqc
