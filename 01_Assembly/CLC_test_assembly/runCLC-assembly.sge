@@ -1,0 +1,45 @@
+#$ -cwd
+#$ -q node0
+#$ -S /bin/bash
+#$ -pe mpich 40
+
+PREFIX=Fucus_vesiculosus_CLC_assembly_four_libs
+ASSEMBLY=${PREFIX}_novo.fa
+MAPPING=/state/partition2/tmp/${PREFIX}.cas
+LOG=${PREFIX}.log
+ERR=${PREFIX}.err.log
+
+# 180bp lib.
+FILE1=../../00_Data/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_1.fastq
+FILE2=../../00_Data/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_2.fastq
+# 300bp lib.
+FILE3=
+FILE4=
+# 550bp lib.
+FILE5=
+FILE6=
+# MPL lib.
+FILE7=
+FILE8=
+
+export TMPDIR=/state/partition2/tmp
+
+date >> $LOG
+echo "Starting clc_assembly analysis" >> $LOG
+time clc_assembler -w 87 -v --cpus $NSLOTS -o $ASSEMBLY -p fb ss 100 450 -q -i $FILE1 $FILE2 >> $LOG 2>> $ERR
+
+date >> $LOG
+echo "Starting clc_mapper analysis" >> $LOG
+time clc_mapper --cpus $NSLOTS -o $MAPPING -p fb ss 100 450 -q -i $FILE1 $FILE2 -d $ASSEMBLY >> $LOG 2>> $ERR
+
+date >> $LOG
+echo "Starting clc_mapping_info analysis" >> $LOG
+clc_mapping_info -c -n $MAPPING
+
+date >> $LOG
+echo "Starting clc_sequence_info analyses" >> $LOG
+time clc_sequence_info -l -k -n $ASSEMBLY > ${PREFIX}_seqInfo.txt
+time clc_sequence_info -l -k -n -c 1000 $ASSEMBLY > ${PREFIX}_seqInfo-1000.txt
+time clc_sequence_info -l -k -n -c 2000 $ASSEMBLY > ${PREFIX}_seqInfo-2000.txt
+time clc_sequence_info -l -k -n -c 5000 $ASSEMBLY > ${PREFIX}_seqInfo-5000.txt
+time clc_sequence_info -l -k -n -c 10000 $ASSEMBLY > ${PREFIX}_seqInfo-10000.txt
