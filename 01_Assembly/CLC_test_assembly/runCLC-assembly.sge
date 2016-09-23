@@ -3,7 +3,7 @@
 #$ -S /bin/bash
 #$ -pe mpich 10
 
-CLC-Assembly-cell/v5.0.1
+module loade CLC-Assembly-cell/v5.0.1
 
 PREFIX=Fucus_vesiculosus_CLC_assembly_four_libs
 ASSEMBLY=${PREFIX}_novo.fa
