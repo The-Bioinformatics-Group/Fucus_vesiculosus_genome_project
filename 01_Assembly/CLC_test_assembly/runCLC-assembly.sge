@@ -7,6 +7,7 @@ module loade CLC-Assembly-cell/v5.0.1
 
 PREFIX=Fucus_vesiculosus_CLC_assembly_four_libs
 ASSEMBLY=${PREFIX}_novo.fa
+DISTFILE=${PREFIX}_dist.txt
 MAPPING=/state/partition2/tmp/${PREFIX}.cas
 LOG=${PREFIX}.log
 ERR=${PREFIX}.err.log
@@ -30,7 +31,7 @@ export TMPDIR=/state/partition2/tmp
 
 date >> $LOG
 echo "Starting clc_assembly analysis" >> $LOG
-time clc_assembler -w 87 -v --cpus $NSLOTS -o $ASSEMBLY -e -p fb ss 100 260 -q -i $FILE1 $FILE2 -e -p fb ss 200 600 -q -i $FILE3 $FILE4 -e -p fb ss 200 800 -q -i $FILE5 $FILE6 -e -p fb ss 200 800 -q -i $FILE7 $FILE8 -e -p bf ss 5000 8000 -q -i $FILE9 $FILE10 >> $LOG 2>> $ERR
+time clc_assembler -w 87 -v -e $DISTFILE --cpus $NSLOTS -o $ASSEMBLY -p fb ss 100 260 -q -i $FILE1 $FILE2 -p fb ss 200 600 -q -i $FILE3 $FILE4 -p fb ss 200 800 -q -i $FILE5 $FILE6 -p fb ss 200 800 -q -i $FILE7 $FILE8 -p bf ss 5000 8000 -q -i $FILE9 $FILE10 >> $LOG 2>> $ERR
 
 date >> $LOG
 echo "Starting clc_mapper analysis" >> $LOG
