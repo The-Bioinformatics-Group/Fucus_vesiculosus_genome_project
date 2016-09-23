@@ -1,7 +1,9 @@
 #$ -cwd
 #$ -q node0
 #$ -S /bin/bash
-#$ -pe mpich 40
+#$ -pe mpich 10
+
+CLC-Assembly-cell/v5.0.1
 
 PREFIX=Fucus_vesiculosus_CLC_assembly_four_libs
 ASSEMBLY=${PREFIX}_novo.fa
@@ -9,28 +11,30 @@ MAPPING=/state/partition2/tmp/${PREFIX}.cas
 LOG=${PREFIX}.log
 ERR=${PREFIX}.err.log
 
-# 180bp lib.
+# 180bp lib. A.Blomberg_15_01
 FILE1=../../00_Data/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_1.fastq
 FILE2=../../00_Data/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_2.fastq
-# 300bp lib.
-FILE3=
-FILE4=
-# 550bp lib.
-FILE5=
-FILE6=
+# 300bp lib. A.Blomberg_15_17
+FILE3=../../00_Data/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/filterPCRdupl_AB_15_17_uniq1.fastq
+FILE4=../../00_Data/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/filterPCRdupl_AB_15_17_uniq2.fastq
+# 550bp lib. A.Blomberg_16_07
+FILE5=../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L001_R1_001.fastq
+FILE6=../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L001_R2_001.fastq
+FILE7=../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L002_R1_001.fastq
+FILE8=../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L002_R2_001.fastq
 # MPL lib.
-FILE7=
-FILE8=
+FILE9=../../00_Data/A.Blomberg_15_20/P3722/best_practice_qc/P3722_201/fastq_trimmed/filterPCRdupl_uniq1.FXT.fastq
+FILE10=../../00_Data/A.Blomberg_15_20/P3722/best_practice_qc/P3722_201/fastq_trimmed/filterPCRdupl_uniq2.FXT.fastq
 
 export TMPDIR=/state/partition2/tmp
 
 date >> $LOG
 echo "Starting clc_assembly analysis" >> $LOG
-time clc_assembler -w 87 -v --cpus $NSLOTS -o $ASSEMBLY -p fb ss 100 450 -q -i $FILE1 $FILE2 >> $LOG 2>> $ERR
+time clc_assembler -w 87 -v --cpus $NSLOTS -o $ASSEMBLY -e -p fb ss 100 260 -q -i $FILE1 $FILE2 -e -p fb ss 200 600 -q -i $FILE3 $FILE4 -e -p fb ss 200 800 -q -i $FILE5 $FILE6 -e -p fb ss 200 800 -q -i $FILE7 $FILE8 -e -p bf ss 5000 8000 -q -i $FILE9 $FILE10 >> $LOG 2>> $ERR
 
 date >> $LOG
 echo "Starting clc_mapper analysis" >> $LOG
-time clc_mapper --cpus $NSLOTS -o $MAPPING -p fb ss 100 450 -q -i $FILE1 $FILE2 -d $ASSEMBLY >> $LOG 2>> $ERR
+time clc_mapper --cpus $NSLOTS -o $MAPPING -p fb ss 100 260 -q -i $FILE1 $FILE2 -p fb ss 200 600 -q -i $FILE3 $FILE4 -p fb ss 200 800 -q -i $FILE5 $FILE6 -p fb ss 200 800 -q -i $FILE7 $FILE8 -p bf ss 5000 8000 -q -i $FILE9 $FILE10 -d $ASSEMBLY >> $LOG 2>> $ERR
 
 date >> $LOG
 echo "Starting clc_mapping_info analysis" >> $LOG
