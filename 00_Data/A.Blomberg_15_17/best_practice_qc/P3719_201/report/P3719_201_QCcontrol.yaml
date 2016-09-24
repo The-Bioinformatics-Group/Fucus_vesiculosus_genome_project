@@ -1,0 +1,17 @@
+pipeline:
+ QCcontrol
+tools:
+ ['trimmomatic', 'fastqc', 'abyss']
+output: P3719_201
+projectName: A.Blomberg_15_17
+kmer: 35
+threads: 16
+genomeSize: 
+adapters: /home/senthilp/opt/NouGAT/resources/TrueSeq3_adapters.fasta
+libraries:
+ lib1:
+  pair1: /proj/a2010002/INBOX/A.Blomberg_15_17/P3719_201/160513_AHLT3LCCXX/P3719_201_S1_L001_R1_001.fastq.gz
+  pair2: /proj/a2010002/INBOX/A.Blomberg_15_17/P3719_201/160513_AHLT3LCCXX/P3719_201_S1_L001_R2_001.fastq.gz
+  orientation: innie
+  insert: 350
+  std: 55
