@@ -1,0 +1,7 @@
+#$ -cwd
+#$ -q Annotation-4
+#$ -S /bin/bash
+
+module load filterPCRdupl/vX.XX
+
+filterPCRdupl.pl -fastq1=P3719_201_S1_L001_R1_001.fastq -fastq2=P3719_201_S1_L001_R1_001.fastq -prefix=filterPCRdupl_AB_15_17
