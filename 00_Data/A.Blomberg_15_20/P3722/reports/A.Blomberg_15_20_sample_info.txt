@@ -1,0 +1,2 @@
+NGI ID	User ID	Mreads	>=Q30	Status
+P3722_201	Fves11 pooled	435.32	91.63	PASSED

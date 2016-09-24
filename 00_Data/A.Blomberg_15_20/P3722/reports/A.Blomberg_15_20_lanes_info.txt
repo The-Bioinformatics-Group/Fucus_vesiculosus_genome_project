@@ -1,0 +1,2 @@
+Date	FC id	Lane	Cluster(M)	Phix	>=Q30(%)	Method
+160909	AH3C3WALXX	1	452	0.69	91.25	A
