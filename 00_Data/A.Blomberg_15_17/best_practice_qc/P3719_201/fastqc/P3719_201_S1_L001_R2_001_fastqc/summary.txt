@@ -1,0 +1,12 @@
+PASS	Basic Statistics	P3719_201_S1_L001_R2_001.fastq.gz
+PASS	Per base sequence quality	P3719_201_S1_L001_R2_001.fastq.gz
+WARN	Per tile sequence quality	P3719_201_S1_L001_R2_001.fastq.gz
+PASS	Per sequence quality scores	P3719_201_S1_L001_R2_001.fastq.gz
+PASS	Per base sequence content	P3719_201_S1_L001_R2_001.fastq.gz
+PASS	Per sequence GC content	P3719_201_S1_L001_R2_001.fastq.gz
+PASS	Per base N content	P3719_201_S1_L001_R2_001.fastq.gz
+WARN	Sequence Length Distribution	P3719_201_S1_L001_R2_001.fastq.gz
+PASS	Sequence Duplication Levels	P3719_201_S1_L001_R2_001.fastq.gz
+PASS	Overrepresented sequences	P3719_201_S1_L001_R2_001.fastq.gz
+PASS	Adapter Content	P3719_201_S1_L001_R2_001.fastq.gz
+PASS	Kmer Content	P3719_201_S1_L001_R2_001.fastq.gz
