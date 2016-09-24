@@ -1,0 +1,12 @@
+PASS	Basic Statistics	P4453_101_S1_L001_R2_001.fastq.gz
+PASS	Per base sequence quality	P4453_101_S1_L001_R2_001.fastq.gz
+WARN	Per tile sequence quality	P4453_101_S1_L001_R2_001.fastq.gz
+PASS	Per sequence quality scores	P4453_101_S1_L001_R2_001.fastq.gz
+PASS	Per base sequence content	P4453_101_S1_L001_R2_001.fastq.gz
+PASS	Per sequence GC content	P4453_101_S1_L001_R2_001.fastq.gz
+PASS	Per base N content	P4453_101_S1_L001_R2_001.fastq.gz
+WARN	Sequence Length Distribution	P4453_101_S1_L001_R2_001.fastq.gz
+PASS	Sequence Duplication Levels	P4453_101_S1_L001_R2_001.fastq.gz
+PASS	Overrepresented sequences	P4453_101_S1_L001_R2_001.fastq.gz
+WARN	Adapter Content	P4453_101_S1_L001_R2_001.fastq.gz
+FAIL	Kmer Content	P4453_101_S1_L001_R2_001.fastq.gz
