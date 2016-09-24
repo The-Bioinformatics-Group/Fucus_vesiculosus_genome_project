@@ -1,0 +1,11 @@
+#$ -cwd
+#$ -q Annotation-4
+#$ -S /bin/bash
+
+pairSeq.py P4453_101_S1_L001_R1_001.fastq P4453_101_S1_L001_R2_001.fastq
+fastqc P4453_101_S1_L001_R1_001.Pair.fastq
+fastqc P4453_101_S1_L001_R2_001.Pair.fastq
+
+pairSeq.py P4453_101_S1_L002_R1_001.fastq P4453_101_S1_L002_R2_001.fastq
+fastqc P4453_101_S1_L002_R1_001.Pair.fastq
+fastqc P4453_101_S1_L002_R2_001.Pair.fastq

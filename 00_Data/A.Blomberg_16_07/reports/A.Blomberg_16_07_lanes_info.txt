@@ -1,0 +1,3 @@
+Date	FC id	Lane	Cluster(M)	Phix	>=Q30(%)	Method
+160810	BHY3MNBCXX	1	77	2.79	83.1	A
+160810	BHY3MNBCXX	2	75	2.69	83.75	A
