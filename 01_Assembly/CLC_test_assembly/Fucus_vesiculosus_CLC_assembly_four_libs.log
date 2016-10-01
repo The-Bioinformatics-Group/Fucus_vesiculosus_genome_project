@@ -1,138 +1,33 @@
-Fri Sep 23 13:50:24 CEST 2016
+Fri Sep 23 19:53:14 CEST 2016
 Starting clc_assembly analysis
 
 Loading reads...
-Progress:    2.0 %  Progress:    4.0 %  Progress:    6.0 %  Progress:    8.0 %  Progress:   10.0 %  Maximum word size is 64
+Progress:    2.0 %  Progress:    4.0 %  Progress:    6.0 %  Progress:    8.0 %  Progress:   10.0 %  
 
-usage: clc_assembler [options]
+Read count:         1482109732
+Nucleotide count: 237837547053
+Word size:                  64
+Bubble size:                50
 
-  Assemble some reads and output contig sequences in fasta format.
 
-Options:
+Counting words...
+Progress:   10.2 %  Progress:   10.4 %  Progress:   10.6 %  Progress:   10.8 %  Progress:   11.0 %  Progress:   11.2 %  Progress:   11.4 %  Progress:   11.5 %  Progress:   11.7 %  Progress:   11.9 %  Progress:   12.1 %  Progress:   12.3 %  Progress:   12.4 %  Progress:   12.6 %  Progress:   12.8 %  Progress:   13.0 %  Progress:   13.1 %  Progress:   13.3 %  Progress:   13.5 %  Progress:   13.6 %  Progress:   13.8 %  Progress:   14.0 %  Progress:   19.3 %  Progress:   24.7 %  Progress:   30.0 %  
+Creating fragments...
+Progress:   30.1 %  Progress:   30.2 %  Progress:   30.3 %  Progress:   30.4 %  Progress:   30.5 %  Progress:   30.6 %  Progress:   30.7 %  Progress:   30.8 %  Progress:   30.9 %  Progress:   31.0 %  Progress:   31.1 %  Progress:   31.2 %  Progress:   31.3 %  Progress:   31.4 %  Progress:   31.5 %  Progress:   31.6 %  Progress:   31.7 %  Progress:   31.8 %  Progress:   31.9 %  Progress:   32.0 %  Progress:   32.1 %  Progress:   32.2 %  Progress:   32.3 %  Progress:   32.4 %  Progress:   32.5 %  Progress:   32.6 %  Progress:   32.7 %  Progress:   32.8 %  Progress:   32.9 %  Progress:   33.0 %  Progress:   33.1 %  Progress:   33.2 %  Progress:   33.3 %  Progress:   33.4 %  Progress:   33.5 %  Progress:   33.6 %  Progress:   33.7 %  Progress:   33.8 %  Progress:   33.9 %  Progress:   34.0 %  Progress:   34.1 %  Progress:   34.2 %  Progress:   34.3 %  Progress:   34.4 %  Progress:   34.5 %  Progress:   34.6 %  Progress:   34.7 %  Progress:   34.8 %  Progress:   34.9 %  Progress:   35.0 %  Progress:   35.1 %  Progress:   35.2 %  Progress:   35.3 %  Progress:   35.4 %  Progress:   35.5 %  Progress:   35.6 %  Progress:   35.7 %  Progress:   35.8 %  Progress:   35.9 %  Progress:   36.0 %  Progress:   36.1 %  Progress:   36.2 %  Progress:   36.3 %  Progress:   36.4 %  Progress:   36.5 %  Progress:   36.6 %  Progress:   36.7 %  Progress:   36.8 %  Progress:   36.9 %  Progress:   37.0 %  Progress:   37.1 %  Progress:   37.2 %  Progress:   37.3 %  Progress:   37.4 %  Progress:   37.5 %  Progress:   37.6 %  Progress:   37.7 %  Progress:   37.8 %  Progress:   37.9 %  Progress:   38.0 %  Progress:   38.1 %  Progress:   38.2 %  Progress:   38.3 %  Progress:   38.4 %  Progress:   38.5 %  Progress:   38.6 %  Progress:   38.7 %  Progress:   38.8 %  Progress:   38.9 %  Progress:   39.0 %  Progress:   39.1 %  Progress:   39.2 %  Progress:   39.3 %  Progress:   39.4 %  Progress:   39.5 %  Progress:   39.6 %  Progress:   39.7 %  Progress:   39.8 %  Progress:   39.9 %  Progress:   40.0 %  Progress:   40.1 %  Progress:   40.2 %  Progress:   40.3 %  Progress:   40.4 %  Progress:   40.5 %  Progress:   40.6 %  Progress:   40.7 %  Progress:   40.8 %  Progress:   40.9 %  Progress:   41.0 %  Progress:   41.1 %  Progress:   41.2 %  Progress:   41.3 %  Progress:   41.4 %  Progress:   41.5 %  Progress:   41.6 %  Progress:   41.7 %  Progress:   41.8 %  Progress:   41.9 %  Progress:   42.0 %  Progress:   42.1 %  Progress:   42.2 %  Progress:   42.3 %  Progress:   42.4 %  Progress:   42.5 %  Progress:   42.6 %  Progress:   42.7 %  Progress:   42.8 %  Progress:   42.9 %  Progress:   43.0 %  Progress:   43.1 %  Progress:   43.2 %  Progress:   43.3 %  Progress:   43.4 %  Progress:   43.5 %  Progress:   43.6 %  Progress:   43.7 %  Progress:   43.8 %  Progress:   43.9 %  Progress:   44.0 %  Progress:   44.1 %  Progress:   44.2 %  Progress:   44.3 %  Progress:   44.4 %  Progress:   44.5 %  Progress:   44.6 %  Progress:   44.7 %  Progress:   44.8 %  Progress:   44.9 %  Progress:   45.0 %  Progress:   45.1 %  Progress:   45.2 %  Progress:   45.3 %  Progress:   45.4 %  Progress:   45.5 %  Progress:   45.6 %  Progress:   45.7 %  Progress:   45.8 %  Progress:   45.9 %  Progress:   46.0 %  Progress:   46.1 %  Progress:   46.2 %  Progress:   46.3 %  Progress:   46.4 %  Progress:   46.5 %  Progress:   46.6 %  Progress:   46.7 %  Progress:   46.8 %  Progress:   46.9 %  Progress:   47.0 %  Progress:   47.1 %  Progress:   47.2 %  Progress:   47.3 %  Progress:   47.4 %  Progress:   47.5 %  Progress:   47.6 %  Progress:   47.7 %  Progress:   47.8 %  Progress:   47.9 %  Progress:   48.0 %  Progress:   48.1 %  Progress:   48.2 %  Progress:   48.3 %  Progress:   48.4 %  Progress:   48.5 %  Progress:   48.6 %  Progress:   48.7 %  Progress:   48.8 %  Progress:   48.9 %  Progress:   49.0 %  Progress:   49.1 %  Progress:   49.2 %  Progress:   49.3 %  Progress:   49.4 %  Progress:   49.5 %  Progress:   49.6 %  Progress:   49.7 %  Progress:   49.8 %  Progress:   49.9 %  Progress:   50.0 %  Progress:   50.1 %  Progress:   50.2 %  Progress:   50.3 %  Progress:   50.4 %  Progress:   50.5 %  Progress:   50.6 %  Progress:   50.7 %  Progress:   50.8 %  Progress:   50.9 %  Progress:   51.0 %  Progress:   51.1 %  Progress:   51.2 %  Progress:   51.3 %  Progress:   51.4 %  Progress:   51.5 %  Progress:   51.6 %  Progress:   51.7 %  Progress:   51.8 %  Progress:   51.9 %  Progress:   52.0 %  Progress:   52.1 %  Progress:   52.2 %  Progress:   52.3 %  Progress:   52.4 %  Progress:   52.5 %  Progress:   52.6 %  Progress:   52.7 %  Progress:   52.8 %  Progress:   52.9 %  Progress:   53.0 %  Progress:   53.1 %  Progress:   53.2 %  Progress:   53.3 %  Progress:   53.4 %  Progress:   53.5 %  Progress:   53.6 %  Progress:   53.7 %  Progress:   53.8 %  Progress:   53.9 %  Progress:   54.0 %  Progress:   54.1 %  Progress:   54.2 %  Progress:   54.3 %  Progress:   54.4 %  Progress:   54.5 %  Progress:   54.6 %  Progress:   54.7 %  Progress:   54.8 %  Progress:   54.9 %  Progress:   55.0 %  Progress:   55.1 %  Progress:   55.2 %  Progress:   55.3 %  Progress:   55.4 %  Progress:   55.5 %  Progress:   55.6 %  Progress:   55.7 %  Progress:   55.8 %  Progress:   55.9 %  Progress:   56.0 %  Progress:   56.1 %  Progress:   56.2 %  Progress:   56.3 %  Progress:   56.4 %  Progress:   56.5 %  Progress:   56.6 %  Progress:   56.7 %  Progress:   56.8 %  Progress:   56.9 %  Progress:   57.0 %  Progress:   57.1 %  Progress:   57.2 %  Progress:   57.3 %  Progress:   57.4 %  Progress:   57.5 %  Progress:   57.6 %  Progress:   57.7 %  Progress:   57.8 %  Progress:   57.9 %  Progress:   58.0 %  Progress:   58.1 %  Progress:   58.2 %  Progress:   58.3 %  Progress:   58.4 %  Progress:   58.5 %  Progress:   58.6 %  Progress:   58.7 %  Progress:   58.8 %  Progress:   58.9 %  Progress:   59.0 %  Progress:   59.1 %  Progress:   59.2 %  Progress:   59.3 %  Progress:   59.4 %  Progress:   59.5 %  Progress:   59.6 %  Progress:   59.7 %  Progress:   59.8 %  Progress:   59.9 %  Progress:   60.0 %  
+Mapping reads...
+Progress:   60.1 %  Progress:   60.2 %  Progress:   60.3 %  Progress:   60.4 %  Progress:   60.5 %  Progress:   60.6 %  Progress:   60.7 %  Progress:   60.8 %  Progress:   60.9 %  Progress:   61.0 %  Progress:   61.1 %  Progress:   61.2 %  Progress:   61.3 %  Progress:   61.4 %  Progress:   61.5 %  Progress:   61.6 %  Progress:   61.7 %  Progress:   61.8 %  Progress:   61.9 %  Progress:   62.0 %  Progress:   62.1 %  Progress:   62.2 %  Progress:   62.3 %  Progress:   62.4 %  Progress:   62.5 %  Progress:   62.6 %  Progress:   62.7 %  Progress:   62.8 %  Progress:   62.9 %  Progress:   63.0 %  Progress:   63.1 %  Progress:   63.2 %  Progress:   63.3 %  Progress:   63.4 %  Progress:   63.5 %  Progress:   63.6 %  Progress:   63.7 %  Progress:   63.8 %  Progress:   63.9 %  Progress:   64.0 %  Progress:   64.1 %  Progress:   64.2 %  Progress:   64.3 %  Progress:   64.4 %  Progress:   64.5 %  Progress:   64.6 %  Progress:   64.7 %  Progress:   64.8 %  Progress:   64.9 %  Progress:   65.0 %  Progress:   65.1 %  Progress:   65.2 %  Progress:   65.3 %  Progress:   65.4 %  Progress:   65.5 %  Progress:   65.6 %  Progress:   65.7 %  Progress:   65.8 %  Progress:   65.9 %  Progress:   66.0 %  Progress:   66.1 %  Progress:   66.2 %  Progress:   66.3 %  Progress:   66.4 %  Progress:   66.5 %  Progress:   66.6 %  Progress:   66.7 %  Progress:   66.8 %  Progress:   66.9 %  Progress:   67.0 %  Progress:   67.1 %  Progress:   67.2 %  Progress:   67.3 %  Progress:   67.4 %  Progress:   67.5 %  Progress:   67.6 %  Progress:   67.7 %  Progress:   67.8 %  Progress:   67.9 %  Progress:   68.0 %  Progress:   68.1 %  Progress:   68.2 %  Progress:   68.3 %  Progress:   68.4 %  Progress:   68.5 %  Progress:   68.6 %  Progress:   68.7 %  Progress:   68.8 %  Progress:   68.9 %  Progress:   69.0 %  Progress:   69.1 %  Progress:   69.2 %  Progress:   69.3 %  Progress:   69.4 %  Progress:   69.5 %  Progress:   69.6 %  Progress:   69.7 %  Progress:   69.8 %  Progress:   69.9 %  Progress:   70.0 %  Progress:   70.1 %  Progress:   70.2 %  Progress:   70.3 %  Progress:   70.4 %  Progress:   70.5 %  Progress:   70.6 %  Progress:   70.7 %  Progress:   70.8 %  Progress:   70.9 %  Progress:   71.0 %  Progress:   71.1 %  Progress:   71.2 %  Progress:   71.3 %  Progress:   71.4 %  Progress:   71.5 %  Progress:   71.6 %  Progress:   71.7 %  Progress:   71.8 %  Progress:   71.9 %  Progress:   72.0 %  Progress:   72.1 %  Progress:   72.2 %  Progress:   72.3 %  Progress:   72.4 %  Progress:   72.5 %  Progress:   72.6 %  Progress:   72.7 %  Progress:   72.8 %  Progress:   72.9 %  Progress:   73.0 %  Progress:   73.1 %  Progress:   73.2 %  Progress:   73.3 %  Progress:   73.4 %  Progress:   73.5 %  Progress:   73.6 %  Progress:   73.7 %  Progress:   73.8 %  Progress:   73.9 %  Progress:   74.0 %  Progress:   74.1 %  Progress:   74.2 %  Progress:   74.3 %  Progress:   74.4 %  Progress:   74.5 %  Progress:   74.6 %  Progress:   74.7 %  Progress:   74.8 %  Progress:   74.9 %  Progress:   75.0 %  Progress:   75.1 %  Progress:   75.2 %  Progress:   75.3 %  Progress:   75.4 %  Progress:   75.5 %  Progress:   75.6 %  Progress:   75.7 %  Progress:   75.8 %  Progress:   75.9 %  Progress:   76.0 %  Progress:   76.1 %  Progress:   76.2 %  Progress:   76.3 %  Progress:   76.4 %  Progress:   76.5 %  Progress:   76.6 %  Progress:   76.7 %  Progress:   76.8 %  Progress:   76.9 %  Progress:   77.0 %  Progress:   77.1 %  Progress:   77.2 %  Progress:   77.3 %  Progress:   77.4 %  Progress:   77.5 %  Progress:   77.6 %  Progress:   77.7 %  Progress:   77.8 %  Progress:   77.9 %  Progress:   78.0 %  Progress:   78.1 %  Progress:   78.2 %  Progress:   78.3 %  Progress:   78.4 %  Progress:   78.5 %  Progress:   78.6 %  Progress:   78.7 %  Progress:   78.8 %  Progress:   78.9 %  Progress:   79.0 %  Progress:   79.1 %  Progress:   79.2 %  Progress:   79.3 %  Progress:   79.4 %  Progress:   79.5 %  Progress:   79.6 %  Progress:   79.7 %  Progress:   79.8 %  Progress:   79.9 %  Progress:   80.0 %  
+Constructing initial graph...
+Progress:   80.2 %  
+Performing read optimizations...
+Progress:   80.3 %  Progress:   80.4 %  Progress:   80.5 %  Progress:   80.6 %  Progress:   80.7 %  Progress:   80.8 %  Progress:   80.9 %  Progress:   81.0 %  Progress:   81.1 %  Progress:   81.2 %  Progress:   81.3 %  Progress:   81.4 %  Progress:   81.5 %  Progress:   81.6 %  Progress:   81.7 %  Progress:   81.8 %  Progress:   81.9 %  Progress:   82.0 %  Progress:   82.1 %  Progress:   82.2 %  Progress:   82.3 %  Progress:   82.4 %  Progress:   82.5 %  Progress:   82.6 %  Progress:   82.7 %  Progress:   82.8 %  Progress:   82.9 %  Progress:   83.0 %  Progress:   83.1 %  Progress:   83.2 %  Progress:   83.3 %  Progress:   83.4 %  Progress:   83.5 %  Progress:   83.6 %  Progress:   83.7 %  Progress:   83.8 %  Progress:   83.9 %  Progress:   84.0 %  Progress:   84.1 %  Progress:   84.2 %  Progress:   84.3 %  Progress:   84.4 %  Progress:   84.5 %  Progress:   84.6 %  Progress:   84.7 %  Progress:   84.8 %  Progress:   84.9 %  Progress:   85.0 %  Progress:   85.1 %  Progress:   85.2 %  Progress:   85.3 %  Progress:   85.4 %  Progress:   85.5 %  Progress:   85.6 %  Progress:   85.7 %  Progress:   85.8 %  Progress:   85.9 %  Progress:   86.0 %  Progress:   86.1 %  Progress:   86.2 %  Progress:   86.3 %  Progress:   86.4 %  Progress:   86.5 %  Progress:   86.6 %  Progress:   86.7 %  Progress:   86.8 %  Progress:   86.9 %  Progress:   87.0 %  Progress:   87.1 %  Progress:   87.2 %  Progress:   87.3 %  Progress:   87.4 %  Progress:   87.5 %  Progress:   87.6 %  Progress:   87.7 %  Progress:   87.8 %  Progress:   87.9 %  Progress:   88.0 %  Progress:   88.1 %  Progress:   88.2 %  Progress:   88.3 %  Progress:   88.4 %  Progress:   88.5 %  Progress:   88.6 %  Progress:   88.7 %  Progress:   88.8 %  Progress:   88.9 %  Progress:   89.0 %  Progress:   89.1 %  Progress:   89.2 %  Progress:   89.3 %  Progress:   89.4 %  Progress:   89.5 %  Progress:   89.6 %  Progress:   91.8 %  Progress:   91.9 %  Progress:   92.0 %  
+Inferring paired distances...
 
-  -h / --help: Display this message
+Performing paired read optimizations and scaffolding...
+Progress:   92.1 %  Progress:   92.2 %  Progress:   92.3 %  Progress:   92.4 %  Progress:   92.5 %  Progress:   92.6 %  Progress:   92.7 %  Progress:   92.8 %  Progress:   92.9 %  Progress:   93.0 %  Progress:   93.1 %  Progress:   93.2 %  Progress:   93.3 %  Progress:   93.4 %  Progress:   93.5 %  Progress:   93.6 %  Progress:   93.7 %  Progress:   93.8 %  Progress:   93.9 %  Progress:   94.0 %  Progress:   94.1 %  Progress:   94.2 %  Progress:   94.3 %  Progress:   94.4 %  Progress:   94.6 %  Progress:   94.7 %  Progress:   94.8 %  Progress:   94.9 %  Progress:   95.0 %  Progress:   95.1 %  Progress:   95.3 %  Progress:   95.4 %  Progress:   95.5 %  Progress:   95.6 %  Progress:   95.7 %  Progress:   95.8 %  Progress:   95.9 %  Progress:   96.0 %  
+Resolving contig overlaps...
 
-  -q / --reads: The files following this option are read files. Fasta, fastq,
-     and sff formats are allowed. (may be used several times)
-
-  -i <file1> <file2> / --interleave <file1> <file2>: Interleave the sequences
-     in two files, alternating between the files when reading the
-     sequences. Only valid for read files. (may be used several times)
-
-  -o <file> / --output <file>: Give the output fasta file (required)
-
-  -f <file> / --feature_output <file>: Output scaffolding annotation in
-     GFF (default) or AGP format. The file suffix is used to determine the
-     output format. Use '.gff' for GFF format and '.agp' for AGP format.
-
-  -m <n> / --min-length <n>: Set the minimum contig/scaffold length to output
-     (default = 200)
-
-  -w <n> / --wordsize <n>: Set the word size for the de Bruijn graph (default
-     is automatic based on input data size)
-
-  -b <n> / --bubblesize <n>: Set the maximum bubble size for the de Bruijn graph
-     (default is 50)
-
-  --cpus <n>: Set the number of cpus to use.
-
-  -v / --verbose: Output various information while running.
-
-  -p <par> / --paired <par>: Set the paired read mode for the read files
-     following this option. (may be used several times)
-
-     par consists of four strings: <mode> <dist_mode> <min_dist> <max_dist>
-
-     mode is ff, fb, bf, bb and sets the relative orientation of read one and
-     two in a pair (f = forward, b = backward)
-
-     dist_mode is ss, se, es, ee and sets the place on read one and two to
-     measure the distance (s = start, e = end).
-
-     A typical use would be "-p fb ss 180 250" which means that the reads are
-     inverted and pointing towards each other. The distance includes both the
-     reads and the sequence between them. The distance may be between 180 and
-     250, both included.
-
-     It is also allowed to insert a "d" before the mode. This indicates that
-     the reads in the following file(s) should only be used for their paired end
-     information and not to build initial contigs. E.g. "-p d fb ss 180 250".
-
-     To explicitly say that the following reads are not paired, use "no" for
-     par, i.e. "-p no".
-
-     For paired end reads split in two files, use the -i option.
-
-  -e <file> / --estimatedistances <file> Estimate paired distances for all paired
-     reads and save the distance estimates in <file>. If it is not possible to
-     get an accurate distance estimate for a file, the original paired distance
-     is used.
-
-  -g <mode> / --fragmentmode <mode>: Set the mode for how reads are used to
-     create fragments. One mode is "ignore", which ignores the nucleotides
-     when building initial fragments. The other mode is "use", which uses
-     the nucleotides when building initial fragments. This is the default mode.
-     The mode applies to all read files following this option. The option may be
-     used repeatedly.
-
-  -n / --no-scaffolding: Pair info is used for contig creation, but no
-     scaffolding is performed.
-
-Examples:
-
-  Assembly of a single file with reads:
-
-    clc_assembler -o contigs.fasta -q reads.fasta
-
-  Assembly of two interleaved files with paired end reads:
-
-    clc_assembler -o contigs.fasta -p fb ss 180 250 -q -i reads1.fq reads2.fq
-
-Version: 5.0.1.145270-160719-2012
-
-Fri Sep 23 15:23:31 CEST 2016
+Saving contigs...
+Progress:   96.1 %  Progress:   96.2 %  Progress:   96.3 %  Progress:   96.4 %  Progress:   96.5 %  Progress:   96.6 %  Progress:   96.7 %  Progress:   96.8 %  Progress:   96.9 %  Progress:   97.0 %  Progress:   97.1 %  Progress:   97.2 %  Progress:   97.3 %  Progress:   97.4 %  Progress:   97.5 %  Progress:   97.6 %  Progress:   97.7 %  Progress:   97.8 %  Progress:   97.9 %  Progress:   98.0 %  Progress:   98.1 %  Progress:   98.2 %  Progress:   98.3 %  Progress:   98.4 %  Progress:   98.5 %  Progress:   98.6 %  Progress:   98.7 %  Progress:   98.8 %  Progress:   98.9 %  Progress:   99.0 %  Progress:   99.1 %  Progress:   99.2 %  Progress:   99.3 %  Progress:   99.4 %  Progress:   99.5 %  Progress:   99.6 %  Progress:   99.7 %  Progress:   99.8 %  Progress:   99.9 %  Progress:  100.0 %  
+Sat Oct  1 01:35:53 CEST 2016
 Starting clc_mapper analysis
-CLC Read Mapper - Version 5.0.1.145270-160719-2012
-
-Usage information:
-
-  [36m-d[0m [32m--references[0m        Reference database file(s) to use.
-  [36m-z[0m [32m--circular[0m          Indicate that the following reference file contains circular sequences, eg. -d -z mito.fa.
-  [36m-n[0m [32m--indexoutput[0m       Save index to file, eg. hg19.idx.
-
-  [36m-q[0m [32m--reads[0m             Read file(s) to use, eg. read.fastq.
-  [36m-p[0m [32m--paired[0m            Set paired parameters, eg. fb ss 50 250.
-  [36m-i[0m [32m--interleave[0m        Form read pairs by interleaving two files, eg. -i mate1.fastq mate2.fastq.
-     [32m--type[0m              Set technology hint to [1mnormal[0m or [1mpacbio[0m (default is normal)
-
-  [36m-o[0m [32m--output[0m            Resulting alignments, eg. result.cas.
-
-  [36m-m[0m [32m--matchscore[0m        Set match score (integer range 1 to 10, default 1).
-  [36m-x[0m [32m--mismatchcost[0m      Set mismatch cost (integer range 1 to 10, default 2).
-  [36m-g[0m [32m--gapcost[0m           Set insertion and deletion cost (integer range 1 to 3, default 3).
-  [36m-G[0m [32m--gapopen[0m           Set affine insertion and deletion open cost (integer from 0 to 10, default 0 (linear)).
-  [36m-e[0m [32m--deletioncost[0m      Set deletion cost (integer range 1 to 3, default is gapcost).
-  [36m-E[0m [32m--deletionopen[0m      Set affine deletion open cost (integer from 0 to 10, default is gapopen).
-
-  [36m-a[0m [32m--alignmode[0m         Set [1mlocal[0m or [1mglobal[0m alignment mode (default local).
-  [36m-f[0m [32m--forwardonly[0m       Restrict mapping to the forward strand.
-  [36m-b[0m [32m--backwardonly[0m      Restrict mapping to the backward strand.
-
-  [36m-r[0m [32m--repeat[0m            Report [1mrandom[0m hits for multi-hits or [1mignore[0m them (default random).
-  [36m-t[0m [32m--maxalign[0m          Set the maximum number of hits to report for each read (default 1).
-  [36m-s[0m [32m--similarity[0m        Set similarity score (default 0.8).
-  [36m-l[0m [32m--lengthfraction[0m    Set length fraction (default 0.5).
-
-     [32m--noprogress[0m        Hide progress indicator.
-     [32m--cpus[0m              Restrict the number of threads to be used, eg. --cpus 20 (default unlimited).
-
-There is an issue with the command you entered:
-
-  [36mclc_mapper[0m [36m--cpus[0m [32m10[0m [36m-o[0m [32m/state/partition2/tmp/Fucus_vesiculosus_CLC_assembly_four_libs.cas[0m [36m-p[0m [32mfb[0m [32mss[0m [32m100[0m [32m260[0m [36m-q[0m [36m-i[0m [32m../../00_Data/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_1.fastq[0m [32m../../00_Data/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_2.fastq[0m [36m-p[0m [32mfb[0m [32mss[0m [32m200[0m [32m600[0m [36m-q[0m [36m-i[0m [32m../../00_Data/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/filterPCRdupl_AB_15_17_uniq1.fastq[0m [32m../../00_Data/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/filterPCRdupl_AB_15_17_uniq2.fastq[0m [36m-p[0m [32mfb[0m [32mss[0m [32m200[0m [32m800[0m [36m-q[0m [36m-i[0m [32m../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L001_R1_001.fastq[0m [32m../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L001_R2_001.fastq[0m [36m-p[0m [32mfb[0m [32mss[0m [32m200[0m [32m800[0m [36m-q[0m [36m-i[0m [32m../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L002_R1_001.fastq[0m [32m../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L002_R2_001.fastq[0m [36m-p[0m [32mbf[0m [32mss[0m [32m5000[0m [32m8000[0m [36m-q[0m [36m-i[0m [32m../../00_Data/A.Blomberg_15_20/P3722/best_practice_qc/P3722_201/fastq_trimmed/filterPCRdupl_uniq1.FXT.fastq[0m [32m../../00_Data/A.Blomberg_15_20/P3722/best_practice_qc/P3722_201/fastq_trimmed/filterPCRdupl_uniq2.FXT.fastq[0m [36m-d[0m [1;31mFucus_vesiculosus_CLC_assembly_four_libs_novo.fa[0m
-
-  1. Could not open [1mFucus_vesiculosus_CLC_assembly_four_libs_novo.fa[0m.
-
-Fri Sep 23 15:23:31 CEST 2016
-Starting clc_mapping_info analysis
-Fri Sep 23 15:23:31 CEST 2016
-Starting clc_sequence_info analyses
+Progress:    0.0 %Progress:    3.0 %Progress:    3.4 %Progress:    3.5 %Progress:    3.6 %Progress:    3.7 %Progress:    3.8 %Progress:    3.9 %Progress:    4.0 %Progress:    4.1 %Progress:    4.2 %Progress:    4.3 %Progress:    4.4 %Progress:    4.5 %Progress:    4.6 %Progress:    4.7 %Progress:    4.8 %Progress:    4.9 %Progress:    5.0 %Progress:    5.1 %Progress:    5.2 %Progress:    5.3 %Progress:    5.4 %Progress:    5.5 %Progress:    5.6 %Progress:    5.7 %Progress:    5.8 %Progress:    5.9 %Progress:    6.0 %Progress:    6.1 %Progress:    6.2 %Progress:    6.3 %Progress:    6.4 %Progress:    6.5 %Progress:    6.6 %Progress:    6.7 %Progress:    6.8 %Progress:    6.9 %Progress:    7.0 %Progress:    7.1 %Progress:    7.2 %Progress:    7.3 %Progress:    7.4 %Progress:    7.5 %Progress:    7.6 %Progress:    7.7 %Progress:    7.8 %Progress:    7.9 %Progress:    8.0 %Progress:    8.1 %Progress:    8.2 %Progress:    8.3 %Progress:    8.4 %
