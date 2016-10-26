@@ -1,6 +1,6 @@
 #$ -cwd
 #$ -q high_mem
-#$ -pe mpich 32
+#$ -pe mpich 20
 #$ -S /bin/bash
 
 CONFIG=soap_test.config
@@ -10,5 +10,5 @@ module load SOAPdenovo2/r240
 
 #SOAPdenovo-127mer sparse_pregraph -s $CONFIG -K 87 -z 1300000000 -p $NSLOTS -R -o $OUT 1>pregraph.log 2>pregraph.err
 #SOAPdenovo-127mer contig -g $OUT -p $NSLOTS -R 1>contig.log 2>contig.err
-#SOAPdenovo-127mer map -s $CONFIG -g $OUT -p $NSLOTS 1>map.log 2>map.err
+SOAPdenovo-127mer map -s $CONFIG -g $OUT -p $NSLOTS -K 87 1>map.log 2>map.err
 SOAPdenovo-127mer scaff -g $OUT -p $NSLOTS 1>scaff.log 2>scaff.err
