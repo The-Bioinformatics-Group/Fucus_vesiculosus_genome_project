@@ -1,0 +1,83 @@
+
+Version 2.04: released on July 13th, 2012
+Compile Jul  9 2013	11:57:30
+
+********************
+Map
+********************
+
+Parameters: map -s soap_test.config -g Fucus_SOAP-test_1 -p 20 -K 87 
+
+Kmer size: 87.
+Contig length cutoff: 89.
+
+15289446 contig(s), maximum sequence length 28787, minimum sequence length 88, maximum name length 10.
+Time spent on parsing contigs file: 11s.
+20 thread(s) initialized.
+--- 10000000th contig(s).
+Time spent on hashing contigs: 2838s.
+1814586601 node(s) allocated, 1892270827 kmer(s) in contigs, 1892270827 kmer(s) processed.
+Time spent on graph construction: 2851s.
+
+Time spent on aligning long reads: 0s.
+
+In file: soap_test.config, max seq len 301, max name len 256
+20 thread(s) initialized.
+30577775 edge(s) in the graph.
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_1.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_2.fastq
+Current insert size is 180, map_len is 32.
+--- 100000000th reads.
+--- 200000000th reads.
+--- 300000000th reads.
+--- 400000000th reads.
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/filterPCRdupl_AB_15_17_uniq1.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/filterPCRdupl_AB_15_17_uniq2.fastq
+Current insert size is 300, map_len is 32.
+--- 500000000th reads.
+--- 600000000th reads.
+--- 700000000th reads.
+--- 800000000th reads.
+--- 900000000th reads.
+--- 1000000000th reads.
+--- 1100000000th reads.
+--- 1200000000th reads.
+Import reads from file:
+ ../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L001_R1_001.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L001_R2_001.fastq
+Current insert size is 500, map_len is 32.
+--- 1300000000th reads.
+Import reads from file:
+ ../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L002_R1_001.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L002_R2_001.fastq
+--- 1400000000th reads.
+--- 1500000000th reads.
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_20/P3722/best_practice_qc/P3722_201/fastq_trimmed/filterPCRdupl_uniq1.FXT.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_20/P3722/best_practice_qc/P3722_201/fastq_trimmed/filterPCRdupl_uniq2.FXT.fastq
+Current insert size is 6000, map_len is 35.
+--- 1600000000th reads.
+
+Total reads         1659471084
+Reads in gaps       677688737
+Ratio               40.8%
+Reads on contigs    1386124884
+Ratio               83.5%
+4 pe insert size, the largest boundary is 1659471084.
+
+LIB(s) information:
+ [LIB] 0, avg_ins 180, reverse 0.
+ [LIB] 1, avg_ins 300, reverse 0.
+ [LIB] 2, avg_ins 500, reverse 0.
+ [LIB] 3, avg_ins 6000, reverse 1.
+Time spent on aligning reads: 33639s.
+
+Overall time spent on alignment: 608m.
+

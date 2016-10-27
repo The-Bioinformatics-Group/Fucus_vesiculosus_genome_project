@@ -1,0 +1,829 @@
+
+Version 2.04: released on July 13th, 2012
+Compile Jul  9 2013	11:57:30
+
+********************
+Scaff
+********************
+
+Parameters: scaff -u -g Fucus_SOAP-test_1 -p 20 
+
+Files for scaffold construction are OK.
+
+There are 4 grad(s), 1659471084 read(s), max read len 301.
+Kmer size: 87
+There are 30577775 edge(s) in edge file.
+Mask contigs shorter than 89, 18101696 contig(s) masked.
+41758784 arc(s) loaded, average weight is 29.
+15289446 contig(s) loaded.
+Done loading updated edges.
+Time spent on loading updated edges: 307s.
+
+*****************************************************
+Start to load paired-end reads information.
+
+For insert size: 180
+ Total PE links                      187407251
+ Normal PE links on same contig      130224959
+ Incorrect oriented PE links         2768
+ PE links of too small insert size   10029997
+ PE links of too large insert size   0
+ Correct PE links                    47149174
+ Accumulated connections             37097240
+Use contigs longer than 180 to estimate insert size: 
+ PE links               90749744
+ Average insert size    162
+ SD                     33
+18548620 new connections.
+
+For insert size: 300
+ Total PE links                      285731686
+ Normal PE links on same contig      91491855
+ Incorrect oriented PE links         23971
+ PE links of too small insert size   55005128
+ PE links of too large insert size   0
+ Correct PE links                    139208644
+ Accumulated connections             95597160
+Use contigs longer than 300 to estimate insert size: 
+ PE links               79330068
+ Average insert size    354
+ SD                     103
+47798580 new connections.
+
+For insert size: 500
+ Total PE links                      129289688
+ Normal PE links on same contig      47209313
+ Incorrect oriented PE links         4310
+ PE links of too small insert size   13398300
+ PE links of too large insert size   0
+ Correct PE links                    68677026
+ Accumulated connections             56513916
+Use contigs longer than 500 to estimate insert size: 
+ PE links               27696451
+ Average insert size    501
+ SD                     148
+28256958 new connections.
+
+For insert size: 6000
+ Total PE links                      21020493
+ Normal PE links on same contig      336347
+ Incorrect oriented PE links         6489
+ PE links of too small insert size   21319
+ PE links of too large insert size   0
+ Correct PE links                    20631777
+ Accumulated connections             25016370
+Use contigs longer than 6000 to estimate insert size: 
+ PE links               111885
+ Average insert size    5282
+ SD                     1760
+12508185 new connections.
+
+All paired-end reads information loaded.
+Time spent on loading paired-end reads information: 3545s.
+
+*****************************************************
+Start to construct scaffolds.
+
+***************************
+For insert size: 180
+ Total PE links                18548619
+ PE links to masked contigs    15381840
+ On same scaffold PE links     0
+Cutoff of PE links to make a reliable connection: 3
+ Active connections    6333558
+ Weak connections      4054664
+ Weak ratio            64.0%
+99 circles removed.
+Start to remove transitive connection.
+Total contigs                         30577775
+Masked contigs                        18102092
+Remained contigs                      12475683
+None-outgoing-connection contigs      10328979 (82.792892%)
+Single-outgoing-connection contigs    2016247
+Multi-outgoing-connection contigs     1080
+Cycle 1
+ Two-outgoing-connection contigs     129377
+ Potential transitive connections    0
+ Transitive connections              0
+ Transitive ratio                    0.0%
+Start to linearize sub-graph.
+ Picked sub-graphs          129863
+ Connection-conflict        0
+ Significant overlapping    120937
+ Eligible                   3
+ Bubble structures          623
+Mask repeats:
+ Puzzles           113088
+ Masked contigs    113073
+Start to remove transitive connection.
+Total contigs                         30577775
+Masked contigs                        18329484
+Remained contigs                      12248291
+None-outgoing-connection contigs      10555670 (86.180756%)
+Single-outgoing-connection contigs    1692606
+Multi-outgoing-connection contigs     0
+Cycle 1
+ Two-outgoing-connection contigs     15
+ Potential transitive connections    0
+ Transitive connections              0
+ Transitive ratio                    0.0%
+Start to linearize sub-graph.
+ Picked sub-graphs          15
+ Connection-conflict        0
+ Significant overlapping    15
+ Eligible                   0
+ Bubble structures          0
+Start to mask puzzles.
+ Masked contigs      15
+ Remained puzzles    0
+Freezing done.
+
+Rank 1
+ Scaffold number                  605363
+ In-scaffold contig number        11459467
+ Total scaffold length            519110124
+ Average scaffold length          857
+ Filled gap number                667145
+ Longest scaffold                 58088
+ Scaffold and singleton number    10613320
+ Scaffold and singleton length    1920518765
+ Average length                   180
+ N50                              406
+ N90                              86
+
+***************************
+For insert size: 300
+ Total PE links                47798580
+ PE links to masked contigs    38055172
+ On same scaffold PE links     0
+Cutoff of PE links to make a reliable connection: 3
+ Active connections    14392016
+ Weak connections      7945714
+ Weak ratio            55.2%
+1085 circles removed.
+Start to remove transitive connection.
+Total contigs                         30577775
+Masked contigs                        18332452
+Remained contigs                      12245323
+None-outgoing-connection contigs      4700370 (38.385021%)
+Single-outgoing-connection contigs    4603395
+Multi-outgoing-connection contigs     695213
+Cycle 1
+ Two-outgoing-connection contigs     2246345
+ Potential transitive connections    8608
+ Transitive connections              5394
+ Transitive ratio                    0.2%
+Cycle 2
+ Two-outgoing-connection contigs     2238763
+ Potential transitive connections    3216
+ Transitive connections              2
+ Transitive ratio                    0.0%
+Cycle 3
+ Two-outgoing-connection contigs     2238761
+ Potential transitive connections    3214
+ Transitive connections              0
+ Transitive ratio                    0.0%
+Start to linearize sub-graph.
+ Picked sub-graphs          2234180
+ Connection-conflict        878
+ Significant overlapping    1825666
+ Eligible                   2613
+ Bubble structures          11470
+Mask repeats:
+ Puzzles           793739
+ Masked contigs    769991
+Start to remove transitive connection.
+Total contigs                         30577775
+Masked contigs                        19895374
+Remained contigs                      10682401
+None-outgoing-connection contigs      5450984 (51.027702%)
+Single-outgoing-connection contigs    5216176
+Multi-outgoing-connection contigs     37
+Cycle 1
+ Two-outgoing-connection contigs     15204
+ Potential transitive connections    513
+ Transitive connections              468
+ Transitive ratio                    3.1%
+Cycle 2
+ Two-outgoing-connection contigs     14714
+ Potential transitive connections    45
+ Transitive connections              0
+ Transitive ratio                    0.0%
+Start to linearize sub-graph.
+ Picked sub-graphs          13754
+ Connection-conflict        1
+ Significant overlapping    1068
+ Eligible                   0
+ Bubble structures          1
+Start to mask puzzles.
+ Masked contigs      1038
+ Remained puzzles    6
+Freezing done.
+
+Rank 2
+ Scaffold number                  735257
+ In-scaffold contig number        11459467
+ Total scaffold length            1210115409
+ Average scaffold length          1645
+ Filled gap number                1408669
+ Longest scaffold                 143801
+ Scaffold and singleton number    8627422
+ Scaffold and singleton length    1989290654
+ Average length                   230
+ N50                              1058
+ N90                              88
+
+***************************
+For insert size: 500
+ Total PE links                28256958
+ PE links to masked contigs    22104350
+ On same scaffold PE links     0
+Cutoff of PE links to make a reliable connection: 3
+ Active connections    4203248
+ Weak connections      3786588
+ Weak ratio            90.1%
+1000 circles removed.
+Start to remove transitive connection.
+Total contigs                         30577775
+Masked contigs                        19898540
+Remained contigs                      10679235
+None-outgoing-connection contigs      4506420 (42.197968%)
+Single-outgoing-connection contigs    5141379
+Multi-outgoing-connection contigs     67618
+Cycle 1
+ Two-outgoing-connection contigs     963818
+ Potential transitive connections    98471
+ Transitive connections              49441
+ Transitive ratio                    5.1%
+Cycle 2
+ Two-outgoing-connection contigs     896582
+ Potential transitive connections    49344
+ Transitive connections              329
+ Transitive ratio                    0.0%
+Cycle 3
+ Two-outgoing-connection contigs     896167
+ Potential transitive connections    49022
+ Transitive connections              3
+ Transitive ratio                    0.0%
+Cycle 4
+ Two-outgoing-connection contigs     896164
+ Potential transitive connections    49019
+ Transitive connections              0
+ Transitive ratio                    0.0%
+Start to linearize sub-graph.
+ Picked sub-graphs          526625
+ Connection-conflict        6847
+ Significant overlapping    163851
+ Eligible                   170
+ Bubble structures          8692
+Mask repeats:
+ Puzzles           103369
+ Masked contigs    96757
+Start to remove transitive connection.
+Total contigs                         30577775
+Masked contigs                        20109434
+Remained contigs                      10468341
+None-outgoing-connection contigs      4504413 (43.028908%)
+Single-outgoing-connection contigs    5960816
+Multi-outgoing-connection contigs     64
+Cycle 1
+ Two-outgoing-connection contigs     3048
+ Potential transitive connections    637
+ Transitive connections              361
+ Transitive ratio                    11.8%
+Cycle 2
+ Two-outgoing-connection contigs     2653
+ Potential transitive connections    276
+ Transitive connections              0
+ Transitive ratio                    0.0%
+Start to linearize sub-graph.
+ Picked sub-graphs          2292
+ Connection-conflict        77
+ Significant overlapping    1327
+ Eligible                   1
+ Bubble structures          2
+Start to mask puzzles.
+ Masked contigs      1229
+ Remained puzzles    4
+Freezing done.
+
+Rank 3
+ Scaffold number                  662264
+ In-scaffold contig number        11459467
+ Total scaffold length            1374287986
+ Average scaffold length          2075
+ Filled gap number                1485993
+ Longest scaffold                 168491
+ Scaffold and singleton number    8164091
+ Scaffold and singleton length    2048929392
+ Average length                   250
+ N50                              1626
+ N90                              88
+
+Report from smallScaf: 661968 scaffolds by smallPE.
+***************************
+For insert size: 6000
+ Total PE links                12508185
+ PE links to masked contigs    9089374
+ On same scaffold PE links     916155
+Cutoff of PE links to make a reliable connection: 5
+Report from checkScaf: 94 scaffold segments broken.
+Add large insert size PE links: 14413 orientation-conflict links, 762072 contigs acrossed by normal links.
+ Active connections    2286732
+ Weak connections      1894874
+ Weak ratio            82.9%
+735 circles removed.
+Start to remove transitive connection.
+Total contigs                         30577775
+Masked contigs                        20112806
+Remained contigs                      10464969
+None-outgoing-connection contigs      4324759 (41.326057%)
+Single-outgoing-connection contigs    6019039
+Multi-outgoing-connection contigs     20841
+Cycle 1
+ Two-outgoing-connection contigs     100330
+ Potential transitive connections    71914
+ Transitive connections              37220
+ Transitive ratio                    37.1%
+Cycle 2
+ Two-outgoing-connection contigs     62493
+ Potential transitive connections    34206
+ Transitive connections              37
+ Transitive ratio                    0.1%
+Cycle 3
+ Two-outgoing-connection contigs     62452
+ Potential transitive connections    34165
+ Transitive connections              0
+ Transitive ratio                    0.0%
+Start to linearize sub-graph.
+ Picked sub-graphs          63174
+ Connection-conflict        237
+ Significant overlapping    39829
+ Eligible                   49
+ Bubble structures          0
+Mask repeats:
+ Puzzles           33451
+ Masked contigs    16736
+Start to remove transitive connection.
+Total contigs                         30577775
+Masked contigs                        20146278
+Remained contigs                      10431497
+None-outgoing-connection contigs      4326153 (41.472023%)
+Single-outgoing-connection contigs    6091756
+Multi-outgoing-connection contigs     2499
+Cycle 1
+ Two-outgoing-connection contigs     11089
+ Potential transitive connections    6144
+ Transitive connections              1471
+ Transitive ratio                    13.3%
+Cycle 2
+ Two-outgoing-connection contigs     9609
+ Potential transitive connections    4666
+ Transitive connections              0
+ Transitive ratio                    0.0%
+Start to linearize sub-graph.
+ Picked sub-graphs          11354
+ Connection-conflict        24
+ Significant overlapping    10189
+ Eligible                   7
+ Bubble structures          0
+Non-strict linearization.
+Start to linearize sub-graph.
+ Picked sub-graphs          9548
+ Connection-conflict        17
+ Significant overlapping    8596
+ Eligible                   7
+ Bubble structures          0
+Start to mask puzzles.
+ Masked contigs      5436
+ Remained puzzles    2
+Freezing done.
+
+Recover contigs.
+ Total recovered contigs    301757
+ Single-route cases         270085
+ Multi-route cases          41198
+
+All links loaded.
+Time spent on constructing scaffolds: 1208s.
+
+The final rank
+
+*******************************
+ Scaffold number                  399439
+ In-scaffold contig number        11459467
+ Total scaffold length            1719914931
+ Average scaffold length          4305
+ Filled gap number                1969609
+ Longest scaffold                 1064734
+ Scaffold and singleton number    7906366
+ Scaffold and singleton length    2444893622
+ Average length                   309
+ N50                              8401
+ N90                              95
+ Weak points                      18
+
+*******************************
+1000 scaffolds processed.
+2000 scaffolds processed.
+3000 scaffolds processed.
+4000 scaffolds processed.
+5000 scaffolds processed.
+6000 scaffolds processed.
+7000 scaffolds processed.
+8000 scaffolds processed.
+9000 scaffolds processed.
+10000 scaffolds processed.
+11000 scaffolds processed.
+12000 scaffolds processed.
+13000 scaffolds processed.
+14000 scaffolds processed.
+15000 scaffolds processed.
+16000 scaffolds processed.
+17000 scaffolds processed.
+18000 scaffolds processed.
+19000 scaffolds processed.
+20000 scaffolds processed.
+21000 scaffolds processed.
+22000 scaffolds processed.
+23000 scaffolds processed.
+24000 scaffolds processed.
+25000 scaffolds processed.
+26000 scaffolds processed.
+27000 scaffolds processed.
+28000 scaffolds processed.
+29000 scaffolds processed.
+30000 scaffolds processed.
+31000 scaffolds processed.
+32000 scaffolds processed.
+33000 scaffolds processed.
+34000 scaffolds processed.
+35000 scaffolds processed.
+36000 scaffolds processed.
+37000 scaffolds processed.
+38000 scaffolds processed.
+39000 scaffolds processed.
+40000 scaffolds processed.
+41000 scaffolds processed.
+42000 scaffolds processed.
+43000 scaffolds processed.
+44000 scaffolds processed.
+45000 scaffolds processed.
+46000 scaffolds processed.
+47000 scaffolds processed.
+48000 scaffolds processed.
+49000 scaffolds processed.
+50000 scaffolds processed.
+51000 scaffolds processed.
+52000 scaffolds processed.
+53000 scaffolds processed.
+54000 scaffolds processed.
+55000 scaffolds processed.
+56000 scaffolds processed.
+57000 scaffolds processed.
+58000 scaffolds processed.
+59000 scaffolds processed.
+60000 scaffolds processed.
+61000 scaffolds processed.
+62000 scaffolds processed.
+63000 scaffolds processed.
+64000 scaffolds processed.
+65000 scaffolds processed.
+66000 scaffolds processed.
+67000 scaffolds processed.
+68000 scaffolds processed.
+69000 scaffolds processed.
+70000 scaffolds processed.
+71000 scaffolds processed.
+72000 scaffolds processed.
+73000 scaffolds processed.
+74000 scaffolds processed.
+75000 scaffolds processed.
+76000 scaffolds processed.
+77000 scaffolds processed.
+78000 scaffolds processed.
+79000 scaffolds processed.
+80000 scaffolds processed.
+81000 scaffolds processed.
+82000 scaffolds processed.
+83000 scaffolds processed.
+84000 scaffolds processed.
+85000 scaffolds processed.
+86000 scaffolds processed.
+87000 scaffolds processed.
+88000 scaffolds processed.
+89000 scaffolds processed.
+90000 scaffolds processed.
+91000 scaffolds processed.
+92000 scaffolds processed.
+93000 scaffolds processed.
+94000 scaffolds processed.
+95000 scaffolds processed.
+96000 scaffolds processed.
+97000 scaffolds processed.
+98000 scaffolds processed.
+99000 scaffolds processed.
+100000 scaffolds processed.
+101000 scaffolds processed.
+102000 scaffolds processed.
+103000 scaffolds processed.
+104000 scaffolds processed.
+105000 scaffolds processed.
+106000 scaffolds processed.
+107000 scaffolds processed.
+108000 scaffolds processed.
+109000 scaffolds processed.
+110000 scaffolds processed.
+111000 scaffolds processed.
+112000 scaffolds processed.
+113000 scaffolds processed.
+114000 scaffolds processed.
+115000 scaffolds processed.
+116000 scaffolds processed.
+117000 scaffolds processed.
+118000 scaffolds processed.
+119000 scaffolds processed.
+120000 scaffolds processed.
+121000 scaffolds processed.
+122000 scaffolds processed.
+123000 scaffolds processed.
+124000 scaffolds processed.
+125000 scaffolds processed.
+126000 scaffolds processed.
+127000 scaffolds processed.
+128000 scaffolds processed.
+129000 scaffolds processed.
+130000 scaffolds processed.
+131000 scaffolds processed.
+132000 scaffolds processed.
+133000 scaffolds processed.
+134000 scaffolds processed.
+135000 scaffolds processed.
+136000 scaffolds processed.
+137000 scaffolds processed.
+138000 scaffolds processed.
+139000 scaffolds processed.
+140000 scaffolds processed.
+141000 scaffolds processed.
+142000 scaffolds processed.
+143000 scaffolds processed.
+144000 scaffolds processed.
+145000 scaffolds processed.
+146000 scaffolds processed.
+147000 scaffolds processed.
+148000 scaffolds processed.
+149000 scaffolds processed.
+150000 scaffolds processed.
+151000 scaffolds processed.
+152000 scaffolds processed.
+153000 scaffolds processed.
+154000 scaffolds processed.
+155000 scaffolds processed.
+156000 scaffolds processed.
+157000 scaffolds processed.
+158000 scaffolds processed.
+159000 scaffolds processed.
+160000 scaffolds processed.
+161000 scaffolds processed.
+162000 scaffolds processed.
+163000 scaffolds processed.
+164000 scaffolds processed.
+165000 scaffolds processed.
+166000 scaffolds processed.
+167000 scaffolds processed.
+168000 scaffolds processed.
+169000 scaffolds processed.
+170000 scaffolds processed.
+171000 scaffolds processed.
+172000 scaffolds processed.
+173000 scaffolds processed.
+174000 scaffolds processed.
+175000 scaffolds processed.
+176000 scaffolds processed.
+177000 scaffolds processed.
+178000 scaffolds processed.
+179000 scaffolds processed.
+180000 scaffolds processed.
+181000 scaffolds processed.
+182000 scaffolds processed.
+183000 scaffolds processed.
+184000 scaffolds processed.
+185000 scaffolds processed.
+186000 scaffolds processed.
+187000 scaffolds processed.
+188000 scaffolds processed.
+189000 scaffolds processed.
+190000 scaffolds processed.
+191000 scaffolds processed.
+192000 scaffolds processed.
+193000 scaffolds processed.
+194000 scaffolds processed.
+195000 scaffolds processed.
+196000 scaffolds processed.
+197000 scaffolds processed.
+198000 scaffolds processed.
+199000 scaffolds processed.
+200000 scaffolds processed.
+201000 scaffolds processed.
+202000 scaffolds processed.
+203000 scaffolds processed.
+204000 scaffolds processed.
+205000 scaffolds processed.
+206000 scaffolds processed.
+207000 scaffolds processed.
+208000 scaffolds processed.
+209000 scaffolds processed.
+210000 scaffolds processed.
+211000 scaffolds processed.
+212000 scaffolds processed.
+213000 scaffolds processed.
+214000 scaffolds processed.
+215000 scaffolds processed.
+216000 scaffolds processed.
+217000 scaffolds processed.
+218000 scaffolds processed.
+219000 scaffolds processed.
+220000 scaffolds processed.
+221000 scaffolds processed.
+222000 scaffolds processed.
+223000 scaffolds processed.
+224000 scaffolds processed.
+225000 scaffolds processed.
+226000 scaffolds processed.
+227000 scaffolds processed.
+228000 scaffolds processed.
+229000 scaffolds processed.
+230000 scaffolds processed.
+231000 scaffolds processed.
+232000 scaffolds processed.
+233000 scaffolds processed.
+234000 scaffolds processed.
+235000 scaffolds processed.
+236000 scaffolds processed.
+237000 scaffolds processed.
+238000 scaffolds processed.
+239000 scaffolds processed.
+240000 scaffolds processed.
+241000 scaffolds processed.
+242000 scaffolds processed.
+243000 scaffolds processed.
+244000 scaffolds processed.
+245000 scaffolds processed.
+246000 scaffolds processed.
+247000 scaffolds processed.
+248000 scaffolds processed.
+249000 scaffolds processed.
+250000 scaffolds processed.
+251000 scaffolds processed.
+252000 scaffolds processed.
+253000 scaffolds processed.
+254000 scaffolds processed.
+255000 scaffolds processed.
+256000 scaffolds processed.
+257000 scaffolds processed.
+258000 scaffolds processed.
+259000 scaffolds processed.
+260000 scaffolds processed.
+261000 scaffolds processed.
+262000 scaffolds processed.
+263000 scaffolds processed.
+264000 scaffolds processed.
+265000 scaffolds processed.
+266000 scaffolds processed.
+267000 scaffolds processed.
+268000 scaffolds processed.
+269000 scaffolds processed.
+270000 scaffolds processed.
+271000 scaffolds processed.
+272000 scaffolds processed.
+273000 scaffolds processed.
+274000 scaffolds processed.
+275000 scaffolds processed.
+276000 scaffolds processed.
+277000 scaffolds processed.
+278000 scaffolds processed.
+279000 scaffolds processed.
+280000 scaffolds processed.
+281000 scaffolds processed.
+282000 scaffolds processed.
+283000 scaffolds processed.
+284000 scaffolds processed.
+285000 scaffolds processed.
+286000 scaffolds processed.
+287000 scaffolds processed.
+288000 scaffolds processed.
+289000 scaffolds processed.
+290000 scaffolds processed.
+291000 scaffolds processed.
+292000 scaffolds processed.
+293000 scaffolds processed.
+294000 scaffolds processed.
+295000 scaffolds processed.
+296000 scaffolds processed.
+297000 scaffolds processed.
+298000 scaffolds processed.
+299000 scaffolds processed.
+300000 scaffolds processed.
+301000 scaffolds processed.
+302000 scaffolds processed.
+303000 scaffolds processed.
+304000 scaffolds processed.
+305000 scaffolds processed.
+306000 scaffolds processed.
+307000 scaffolds processed.
+308000 scaffolds processed.
+309000 scaffolds processed.
+310000 scaffolds processed.
+311000 scaffolds processed.
+312000 scaffolds processed.
+313000 scaffolds processed.
+314000 scaffolds processed.
+315000 scaffolds processed.
+316000 scaffolds processed.
+317000 scaffolds processed.
+318000 scaffolds processed.
+319000 scaffolds processed.
+320000 scaffolds processed.
+321000 scaffolds processed.
+322000 scaffolds processed.
+323000 scaffolds processed.
+324000 scaffolds processed.
+325000 scaffolds processed.
+326000 scaffolds processed.
+327000 scaffolds processed.
+328000 scaffolds processed.
+329000 scaffolds processed.
+330000 scaffolds processed.
+331000 scaffolds processed.
+332000 scaffolds processed.
+333000 scaffolds processed.
+334000 scaffolds processed.
+335000 scaffolds processed.
+336000 scaffolds processed.
+337000 scaffolds processed.
+338000 scaffolds processed.
+339000 scaffolds processed.
+340000 scaffolds processed.
+341000 scaffolds processed.
+342000 scaffolds processed.
+343000 scaffolds processed.
+344000 scaffolds processed.
+345000 scaffolds processed.
+346000 scaffolds processed.
+347000 scaffolds processed.
+348000 scaffolds processed.
+349000 scaffolds processed.
+350000 scaffolds processed.
+351000 scaffolds processed.
+352000 scaffolds processed.
+353000 scaffolds processed.
+354000 scaffolds processed.
+355000 scaffolds processed.
+356000 scaffolds processed.
+357000 scaffolds processed.
+358000 scaffolds processed.
+359000 scaffolds processed.
+360000 scaffolds processed.
+361000 scaffolds processed.
+362000 scaffolds processed.
+363000 scaffolds processed.
+364000 scaffolds processed.
+365000 scaffolds processed.
+366000 scaffolds processed.
+367000 scaffolds processed.
+368000 scaffolds processed.
+369000 scaffolds processed.
+370000 scaffolds processed.
+371000 scaffolds processed.
+372000 scaffolds processed.
+373000 scaffolds processed.
+374000 scaffolds processed.
+375000 scaffolds processed.
+376000 scaffolds processed.
+377000 scaffolds processed.
+378000 scaffolds processed.
+379000 scaffolds processed.
+380000 scaffolds processed.
+381000 scaffolds processed.
+382000 scaffolds processed.
+383000 scaffolds processed.
+384000 scaffolds processed.
+385000 scaffolds processed.
+386000 scaffolds processed.
+387000 scaffolds processed.
+388000 scaffolds processed.
+389000 scaffolds processed.
+390000 scaffolds processed.
+391000 scaffolds processed.
+392000 scaffolds processed.
+393000 scaffolds processed.
+394000 scaffolds processed.
+395000 scaffolds processed.
+396000 scaffolds processed.
+397000 scaffolds processed.
+398000 scaffolds processed.
+399000 scaffolds processed.
+
+Done with 399439 scaffolds, 0 gaps finished, 3591610 gaps overall.
+
+Overall time spent on constructing scaffolds: 641m.
