@@ -1,0 +1,120 @@
+
+Version 2.04: released on July 13th, 2012
+Compile Jul  9 2013	11:57:30
+********************
+SparsePregraph
+********************
+
+Parameters: pregraph_sparse -s soap_test.config -K 87 -g 15 -z 1300000000 -d 3 -e 1 -R  -r 0 -p 30 -o Fucus_SOAP-1
+
+Start to build the sparse de Brujin graph, round: 1
+1 io thread initialized.
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_1.fastq
+30 work threads initialized.
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_2.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/filterPCRdupl_AB_15_17_uniq1.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/filterPCRdupl_AB_15_17_uniq2.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L001_R1_001.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L001_R2_001.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L002_R1_001.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L002_R2_001.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_20/P3722/best_practice_qc/P3722_201/fastq_trimmed/filterPCRdupl_uniq1.FXT.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_20/P3722/best_practice_qc/P3722_201/fastq_trimmed/filterPCRdupl_uniq2.FXT.fastq
+Time spent on building graph round 1: 18001s, 1659471084 reads processed, 1090965247 nodes allocated
+
+Start to build the sparse de Brujin graph, round: 2
+1 io thread initialized.
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_1.fastq
+30 work threads initialized.
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_2.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/filterPCRdupl_AB_15_17_uniq1.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/filterPCRdupl_AB_15_17_uniq2.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L001_R1_001.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L001_R2_001.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L002_R1_001.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L002_R2_001.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_20/P3722/best_practice_qc/P3722_201/fastq_trimmed/filterPCRdupl_uniq1.FXT.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_20/P3722/best_practice_qc/P3722_201/fastq_trimmed/filterPCRdupl_uniq2.FXT.fastq
+Time spent on building graph round 2: 12597s, 1659471084 reads processed
+1090965247 nodes allocated, 2144856993 kmer-edges allocated.
+
+Start to remove weak nodes and kmer-edges.
+911929004 nodes removed.
+3284802360 edges removed.
+
+Start to remove tips with minority links.
+Total nodes number: 179036242
+Linear nodes number: 157738446
+2550566 tips removed in cycle 1.
+
+Total nodes number: 179036242
+Linear nodes number: 157631276
+45005 tips removed in cycle 2.
+
+Total nodes number: 179036242
+Linear nodes number: 157607817
+547 tips removed in cycle 3.
+
+Total nodes number: 179036242
+Linear nodes number: 157607595
+7 tips removed in cycle 4.
+
+Total nodes number: 179036242
+Linear nodes number: 157607595
+Total 2596125 tips removed.
+Time spent on removing tips: 406s.
+
+Start to construct edges.
+33805449 edges and 10608235 vertexes constructed.
+Time spent on constructing edges: 1670s.
+
+Start to build vertex indexes.
+Time spent on building vertex indexes: 173s.
+
+Start to build preArcs.
+1 io thread initialized.
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_1.fastq
+30 work threads initialized.
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_2.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/filterPCRdupl_AB_15_17_uniq1.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/filterPCRdupl_AB_15_17_uniq2.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L001_R1_001.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L001_R2_001.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L002_R1_001.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L002_R2_001.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_20/P3722/best_practice_qc/P3722_201/fastq_trimmed/filterPCRdupl_uniq1.FXT.fastq
+Import reads from file:
+ ../../00_Data/A.Blomberg_15_20/P3722/best_practice_qc/P3722_201/fastq_trimmed/filterPCRdupl_uniq2.FXT.fastq
+Total number of marks in file markOnEdge: 6521841720
+Time spent on building preArcs: 11127s.
+
+Overall time spent on constructing lightgraph: 779m.

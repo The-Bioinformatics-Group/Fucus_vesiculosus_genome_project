@@ -1,0 +1,144 @@
+
+Version 2.04: released on July 13th, 2012
+Compile Jul  9 2013	11:57:30
+
+********************
+Contig
+********************
+
+Parameters: contig -g Fucus_SOAP-1 -p 30 -R 
+
+There are 10608235 kmer(s) in vertex file.
+There are 33805449 edge(s) in edge file.
+Kmers sorted.
+33805449 edge(s) input.
+45834480 pre-arcs loaded.
+1238565194 markers overall.
+1560874642 markers loaded.
+8450384 none-palindrome edge(s) swapped, 0 palindrome edge(s) processed.
+33805449 edge(s) sorted.
+Arcs sorted.
+491674 repeat(s) are solvable, 986186 more edge(s).
+1972372 dead arc(s) removed.
+Time spent on solving repeat: 36s.
+Start to pinch bubbles, cutoff 0.100000, MAX NODE NUM 3, MAX DIFF NUM 2.
+.............100000 bubbles merged.
+.............200000 bubbles merged.
+.............300000 bubbles merged.
+.............400000 bubbles merged.
+599417 start points, 31224999 dheap nodes.
+10798858 pair(s) found, 529221 pair of path(s) compared, 454874 pair(s) merged.
+Sequence comparison failed:
+ Path crossing deleted edge                         0
+ Length difference of two paths greater than two    40626
+ Mismatch score greater than cutoff (2)             5277
+ Mismatch score ratio greater than cutoff (0.1)     0
+ Path length shorter than (Kmer-1)                  28444
+DFibHeap: 2629082 node(s) allocated.
+3401375 edge(s) concatenated in cycle 1.
+130834 edge(s) concatenated in cycle 2.
+101 edge(s) concatenated in cycle 3.
+0 edge(s) concatenated in cycle 4.
+Time spent on pinching bubbles: 162s.
+Start to destroy weak inner edges.
+40705 weak inner edge(s) destroyed in cycle 1.
+162 weak inner edge(s) destroyed in cycle 2.
+1 weak inner edge(s) destroyed in cycle 3.
+0 weak inner edge(s) destroyed in cycle 4.
+81363 dead arc(s) removed.
+366 inner edge(s) with coverage lower than or equal to 1 destroyed.
+1545 dead arc(s) removed.
+43842 edge(s) concatenated in cycle 1.
+2 edge(s) concatenated in cycle 2.
+0 edge(s) concatenated in cycle 3.
+Before compacting, 34791635 edge(s) existed.
+After compacting, 26643797 edge(s) left.
+
+Strict: 0, cutoff length: 174.
+587654 tips cut in cycle 1.
+85131 tips cut in cycle 2.
+15182 tips cut in cycle 3.
+6278 tips cut in cycle 4.
+4825 tips cut in cycle 5.
+4966 tips cut in cycle 6.
+5115 tips cut in cycle 7.
+3886 tips cut in cycle 8.
+2624 tips cut in cycle 9.
+1420 tips cut in cycle 10.
+847 tips cut in cycle 11.
+446 tips cut in cycle 12.
+331 tips cut in cycle 13.
+275 tips cut in cycle 14.
+310 tips cut in cycle 15.
+301 tips cut in cycle 16.
+295 tips cut in cycle 17.
+305 tips cut in cycle 18.
+281 tips cut in cycle 19.
+274 tips cut in cycle 20.
+238 tips cut in cycle 21.
+205 tips cut in cycle 22.
+221 tips cut in cycle 23.
+240 tips cut in cycle 24.
+145 tips cut in cycle 25.
+139 tips cut in cycle 26.
+131 tips cut in cycle 27.
+177 tips cut in cycle 28.
+158 tips cut in cycle 29.
+133 tips cut in cycle 30.
+152 tips cut in cycle 31.
+174 tips cut in cycle 32.
+197 tips cut in cycle 33.
+147 tips cut in cycle 34.
+92 tips cut in cycle 35.
+45 tips cut in cycle 36.
+23 tips cut in cycle 37.
+7 tips cut in cycle 38.
+10 tips cut in cycle 39.
+12 tips cut in cycle 40.
+9 tips cut in cycle 41.
+6 tips cut in cycle 42.
+3 tips cut in cycle 43.
+4 tips cut in cycle 44.
+3 tips cut in cycle 45.
+6 tips cut in cycle 46.
+5 tips cut in cycle 47.
+5 tips cut in cycle 48.
+2 tips cut in cycle 49.
+2 tips cut in cycle 50.
+2 tips cut in cycle 51.
+4 tips cut in cycle 52.
+1 tips cut in cycle 53.
+4 tips cut in cycle 54.
+6 tips cut in cycle 55.
+3 tips cut in cycle 56.
+6 tips cut in cycle 57.
+4 tips cut in cycle 58.
+3 tips cut in cycle 59.
+4 tips cut in cycle 60.
+7 tips cut in cycle 61.
+3 tips cut in cycle 62.
+5 tips cut in cycle 63.
+6 tips cut in cycle 64.
+7 tips cut in cycle 65.
+4 tips cut in cycle 66.
+7 tips cut in cycle 67.
+1 tips cut in cycle 68.
+2 tips cut in cycle 69.
+2 tips cut in cycle 70.
+10 tips cut in cycle 71.
+7 tips cut in cycle 72.
+4 tips cut in cycle 73.
+0 tips cut in cycle 74.
+485360 dead arc(s) removed.
+222333 edge(s) concatenated in cycle 1.
+1631 edge(s) concatenated in cycle 2.
+0 edge(s) concatenated in cycle 3.
+Before compacting, 26643797 edge(s) existed.
+After compacting, 24748791 edge(s) left.
+
+There are 8999729 contig(s) longer than 100, sum up 2375356344 bp, with average length 263.
+The longest length is 60494 bp, contig N50 is 306 bp,contig N90 is 124 bp.
+12374511 contig(s) longer than 88 output.
+
+Time spent on constructing contig: 27m.
+
