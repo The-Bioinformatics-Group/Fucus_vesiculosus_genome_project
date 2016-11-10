@@ -1,0 +1,10 @@
+#$ -q Annotation-1
+#$ -cwd
+#$ -S /bin/bash
+#$ -pe mpich 40
+
+module load GapCloser/v1.12-r6
+
+ASSEMBLY=../../01_Assembly/SOAP_assembly/Fucus_SOAP-1.scafSeq
+
+GapCloser -t $NSLOTS -l 151 –b gapcloser.config –a $ASSEMBLY –o first_gapcloser_run
