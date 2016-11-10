@@ -1,0 +1,2 @@
+# Commend
+`Abyss-sealer` can handle longer reads them e.g. `gapcloser`. However, the program seems to mainly be runing on one CPU rather then using the full capacity of a compute node.

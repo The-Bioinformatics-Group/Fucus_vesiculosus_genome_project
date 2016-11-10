@@ -1,0 +1,15 @@
+#$ -cwd
+#$ -S /bin/bash
+#$ -q Annotation-1
+#$ -pe mpich 20
+
+# https://github.com/bcgsc/abyss/tree/master/Sealer
+
+module load Abyss/v2.0.2
+
+ASSEMBLY=../01_Assembly/SOAP_assembly/Fucus_SOAP-1.scafSeq
+DATA1=../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L001_R1_001.fastq
+DATA2=../00_Data/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L001_R2_001.fastq
+
+#abyss-sealer -j $NSLOTS -b20G -P 10 -k90 -k80 -k70 -k60 -k50 -k40 -k30 -o first_test -S $ASSEMBLY $DATA1 $DATA2
+abyss-sealer -j $NSLOTS -b20G -P 10 -k30 -o first_test -S $ASSEMBLY $DATA1 $DATA2
