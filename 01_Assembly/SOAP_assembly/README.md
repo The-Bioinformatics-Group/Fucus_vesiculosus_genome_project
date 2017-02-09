@@ -7,4 +7,4 @@ Second run of the SOAPdenovo assembly with insert sizes estimated in the '../SOA
 * Average length: 451 bp
 * Nr. N-char.: 507010297
 * Gaps: 19.5%
-* Assembly size: 2606731630
+* Scafold size: 2606731630
