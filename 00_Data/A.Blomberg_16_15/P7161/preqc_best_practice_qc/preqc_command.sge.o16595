@@ -1,0 +1,40 @@
+
+#################################################################
+Filesystem                            Size  Used Avail Use% Mounted on
+/dev/sda1                              16G  4.7G   10G  33% /
+tmpfs                                  48G     0   48G   0% /dev/shm
+/dev/sda5                             125G  100G   19G  85% /state/partition1
+/dev/sde1                             551G  492G   31G  95% /state/partition2
+/dev/sdf1                             551G   39G  484G   8% /state/partition3
+/dev/sdb1                             917G  477G  395G  55% /state/partition4
+/dev/sdd1                             917G  797G   75G  92% /state/partition5
+/dev/sdc1                             917G  298G  573G  35% /state/partition6
+/dev/sda2                             3.9G  234M  3.5G   7% /var
+nas-0-0:/export/ssd1                  2.6T  2.1T  389G  85% /nobackup/ssd1
+nas-0-0:/export/data1                 1.8T  1.6T  189G  90% /nobackup/data1
+nas-0-0:/export/data2                 1.8T  1.5T  248G  86% /nobackup/data2
+nas-0-0:/export/data3                 3.6T  2.5T  971G  73% /nobackup/data3
+nas-0-0:/export/data5                 3.6T  2.6T  872G  75% /nobackup/data5
+nas-0-0:/export/data6                 3.6T  3.4T   58G  99% /nobackup/data6
+nas-0-0:/export/data7                 3.6T  2.3T  1.2T  67% /nobackup/data7
+nas-0-0:/export/data8                 3.6T  2.8T  651G  82% /nobackup/data8
+nas-0-0:/export/data9                 1.8T  1.2T  583G  67% /nobackup/data9
+nas-0-0:/export/data10                1.8T  1.7T   73G  96% /nobackup/data10
+nas-0-0:/export/data11                1.8T  1.6T  142G  92% /nobackup/data11
+nas-0-0:/export/data14                7.2T  4.3T  2.6T  64% /nobackup/data14
+nas-0-0:/export/data15                7.2T 1021G  5.9T  15% /nobackup/data15
+albiorix.local:/export/home/rbatista  7.2T  6.4T  413G  95% /home/rbatista
+albiorix.local:/export/home/local     7.2T  6.4T  413G  95% /home/local
+albiorix.local:/export/home/mtop      7.2T  6.4T  413G  95% /home/mtop
+total                                  70T   50T   17T  76%
+Building index for Fucus_vesiculosus_A.Blomberg_16_15_MPS.preprocessed.fastq in memory using ropebwt
+	 done bwt construction, generating .sai file
+output_pfx:  preqc_report
+preqc_files:
+	Fucus_vesiculosus_A.Blomberg_16_15_MPS.preprocessed.preqc
+	/usr/local/packages/sga-0.10.15/src/examples/preqc/bird.preqc
+	/usr/local/packages/sga-0.10.15/src/examples/preqc/fish.preqc
+	/usr/local/packages/sga-0.10.15/src/examples/preqc/human.preqc
+	/usr/local/packages/sga-0.10.15/src/examples/preqc/oyster.preqc
+	/usr/local/packages/sga-0.10.15/src/examples/preqc/snake.preqc
+	/usr/local/packages/sga-0.10.15/src/examples/preqc/yeast.preqc
