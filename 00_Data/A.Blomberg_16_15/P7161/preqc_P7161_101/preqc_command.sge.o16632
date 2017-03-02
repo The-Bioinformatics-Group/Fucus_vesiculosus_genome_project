@@ -1,0 +1,37 @@
+
+#################################################################
+Filesystem                          Size  Used Avail Use% Mounted on
+/dev/sda1                            16G  4.6G   10G  32% /
+tmpfs                               253G     0  253G   0% /dev/shm
+/dev/sda5                            90G   45G   42G  52% /state/partition1
+/dev/sdb1                           1.8T  444G  1.3T  26% /state/partition2
+/dev/sdc1                           2.7T  1.6T  1.1T  60% /state/partition3
+/dev/sda2                           3.8G  269M  3.4G   8% /var
+nas-0-0:/export/ssd1                2.6T  2.1T  433G  83% /nobackup/ssd1
+nas-0-0:/export/data1               1.8T  1.6T  189G  90% /nobackup/data1
+nas-0-0:/export/data2               1.8T  1.5T  248G  86% /nobackup/data2
+nas-0-0:/export/data3               3.6T  2.5T  971G  73% /nobackup/data3
+nas-0-0:/export/data5               3.6T  2.6T  872G  75% /nobackup/data5
+nas-0-0:/export/data6               3.6T  3.4T   58G  99% /nobackup/data6
+nas-0-0:/export/data7               3.6T  2.3T  1.2T  67% /nobackup/data7
+nas-0-0:/export/data8               3.6T  2.2T  1.3T  62% /nobackup/data8
+nas-0-0:/export/data9               1.8T  1.2T  583G  67% /nobackup/data9
+nas-0-0:/export/data10              1.8T  1.7T   73G  96% /nobackup/data10
+nas-0-0:/export/data11              1.8T  1.3T  494G  72% /nobackup/data11
+nas-0-0:/export/data14              7.2T  4.3T  2.6T  64% /nobackup/data14
+nas-0-0:/export/data15              7.2T 1021G  5.9T  15% /nobackup/data15
+albiorix.local:/export/home/local   7.2T  6.4T  409G  95% /home/local
+albiorix.local:/export/home/zeynep  7.2T  6.4T  409G  95% /home/zeynep
+albiorix.local:/export/home/mtop    7.2T  6.4T  409G  95% /home/mtop
+total                                71T   49T   19T  73%
+Building index for Fucus_vesiculosus_A.Blomberg_16_15_MPS.preprocessed.fastq in memory using ropebwt
+	 done bwt construction, generating .sai file
+output_pfx:  preqc_report
+preqc_files:
+	Fucus_vesiculosus_A.Blomberg_16_15_MPS.preprocessed.preqc
+	/usr/local/packages/sga-0.10.15/src/examples/preqc/bird.preqc
+	/usr/local/packages/sga-0.10.15/src/examples/preqc/fish.preqc
+	/usr/local/packages/sga-0.10.15/src/examples/preqc/human.preqc
+	/usr/local/packages/sga-0.10.15/src/examples/preqc/oyster.preqc
+	/usr/local/packages/sga-0.10.15/src/examples/preqc/snake.preqc
+	/usr/local/packages/sga-0.10.15/src/examples/preqc/yeast.preqc

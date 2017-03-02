@@ -1,0 +1,27 @@
+Parameters:
+QualTrim: 0
+QualFilter: no filtering
+HardClip: 0
+Min length: 40
+Sample freq: 1
+PE Mode: 1
+Quality scaling: 2
+MinGC: 0
+MaxGC: 1
+Outfile: stdout
+Orphan file: none
+Discarding sequences with ambiguous bases
+Seed: 1488364740
+Processing pe files ../P7161_101/02-FASTQ/170214_ST-E00214_0136_AHGVMCALXX/P7161_101_S1_L001_R1_001.fastq, ../P7161_101/02-FASTQ/170214_ST-E00214_0136_AHGVMCALXX/P7161_101_S1_L001_R2_001.fastq
+
+Preprocess stats:
+Reads parsed:	712078760
+Reads kept:	690668722 (0.969933)
+Reads failed primer screen:	1305 (1.83266e-06)
+Bases parsed:	107523892760
+Bases kept:	104290977022 (0.969933)
+Number of incorrectly paired reads that were discarded: 0
+[timer - sga preprocess] wall clock: 8049.05s CPU: 4253.29s
+[timer - sga index] wall clock: 26829.74s CPU: 112540.51s
+Loading FM-index of Fucus_vesiculosus_A.Blomberg_16_15_MPS.preprocessed.fastq
+[timer - sga::preqc] wall clock: 7799.25s CPU: 37561.70s
