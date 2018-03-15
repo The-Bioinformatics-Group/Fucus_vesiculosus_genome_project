@@ -1,0 +1,51 @@
+#$ -cwd 
+#$ -q Annotation-3
+#$ -pe mpich 40
+#$ -S /bin/bash
+
+module load Platanus/v1.2.4
+module load Megahit/v1.1.3
+
+
+# This is library #1, 180bp lib. A.Blomberg_15_01, 126 bp reads
+#average insert size
+#avg_ins=162
+FILE1=/proj/data21/Fucus_vesiculosus/Genome/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_1_val_1.FXT.CA.FQF.Pair.fastq.gz
+FILE2=/proj/data21/Fucus_vesiculosus/Genome/A.Blomberg_15_01/best_practice_qc/P1887_101/fastq_trimmed/7_150521_AC6VGLANXX_P1887_101_2_val_2.FXT.CA.FQF.Pair.fastq.gz
+
+
+# This is library #2, 300bp lib. A.Blomberg_15_17, 151 bp reads
+#average insert size
+#avg_ins=354
+FILE3=/proj/data21/Fucus_vesiculosus/Genome/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/LATEST_filterPCRdupl_AB_15_17_uniq1.fastq.gz
+FILE4=/proj/data21/Fucus_vesiculosus/Genome/A.Blomberg_15_17/best_practice_qc/P3719_201/fastq_trimmed/LATEST_filterPCRdupl_AB_15_17_uniq2.fastq.gz
+
+
+# This is library #3, 550bp lib. A.Blomberg_16_07, 301 bp reads
+#average insert size
+#avg_ins=501 #looks smaller than 550 based on preqc, will adjust for next run if this is wrong.
+FILE5=/proj/data21/Fucus_vesiculosus/Genome/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L001_R1_001_cutadapt_trim2.fastq.gz
+FILE6=/proj/data21/Fucus_vesiculosus/Genome/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L001_R2_001_cutadapt_trim2.fastq.gz
+FILE7=/proj/data21/Fucus_vesiculosus/Genome/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L002_R1_001_cutadapt_trim2.BIGTRIM.fastq.gz
+FILE8=/proj/data21/Fucus_vesiculosus/Genome/A.Blomberg_16_07/best_practice_qc/P4453_101/fastq_trimmed/P4453_101_S1_L002_R2_001_cutadapt_trim2.BIGTRIM.fastq.gz
+
+# MP libraries
+# MPS
+FILE9=/proj/data21/Fucus_vesiculosus/Genome/A.Blomberg_15_20/P3722/best_practice_qc/P3722_201/fastq_trimmed/FINAL_filterPCRdupl_AB_15_20_uniq1_val_1_val_1.fq.gz
+FILE10=/proj/data21/Fucus_vesiculosus/Genome/A.Blomberg_15_20/P3722/best_practice_qc/P3722_201/fastq_trimmed/FINAL_filterPCRdupl_AB_15_20_uniq2_val_2_val_2.fq.gz
+
+# MPL
+FILE11=/proj/data21/Fucus_vesiculosus/Genome/A.Blomberg_16_15/P7161/best_practice_qc/P7161_101/fastq_trimmed/FINAL_filterPCRdupl_AB_16_15_uniq1_val_1_val_1.fq.gz
+FILE12=/proj/data21/Fucus_vesiculosus/Genome/A.Blomberg_16_15/P7161/best_practice_qc/P7161_101/fastq_trimmed/FINAL_filterPCRdupl_AB_16_15_uniq2_val_2_val_2.fq.gz
+
+PREFIX=Fucus_vesiculosus_meta
+MEM=232
+
+# Assembly
+megahit -m $MEM -1 $FILE1,$FILE3,$FILE5,$FILE7 -2 $FILE2,$FILE4,$FILE6,$FILE8 -t $NSLOTS 2> ${PREFIX}_assemble.log -o megahit_out --out-prefix $PREFIX
+ 
+# Scaffolding
+platanus scaffold -o $PREFIX -c megahit_out/${PREFIX}.contigs.fa -b ${PREFIX}_contigBubble.fa -t $NSLOTS -OP1 $FILE9 $FILE10 $FILE11 $FILE12 2> ${PREFIX}_scaffold.log
+
+# Gapclosing
+platanus gap_close -o $PREFIX -c ${PREFIX}_scaffold.fa -t $NSLOTS -IP1 $FILE1 $FILE2 $FILE3 $FILE4 $FILE5 $FILE6 $FILE7 $FILE8 $FILE9 $FILE10 $FILE11 $FILE12 2> ${PREFIX}_gapclose.log
