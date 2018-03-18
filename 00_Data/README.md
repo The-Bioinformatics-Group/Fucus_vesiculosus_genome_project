@@ -20,7 +20,7 @@
 
 Genome size used for calculating the coverage: 1.2 Gb
 
-The number of bases in the read files whas calculated using the command:
+The number of bases in the read files was calculated using the command:
 ```bash
 zcat *.fq.gz | grep "^@" -A 1 | grep -v "^@" - | grep -v "--" - | tr -d '\n' | wc -c
 ```
