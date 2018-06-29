@@ -38,3 +38,17 @@ to hang, rather than kill the pipeline), so will turn this option off and try `S
 * In the interests of time, this will first be attempted **without** deleting the previous job; based on the
   documentation, this should resume from where it left off, but as the altered step is the one that killed the
   job, this may not work and a complete restart may be necessary...
+
+# Attempt 5
+The simple gap closer produced its own errors and killed the pipline. 
+
+# Attempt 6
+Attempt without any unipath gap closing module
+* From [Biostars](https://www.biostars.org/p/122091/) - "At the advice from Allpaths-LG forum, I just disabled
+the CloseUnipathGaps module using CLOSE_UNIPATH_GAPS=False, as it was stated this doesn't affect the quality of
+assembly much at all. Without this module, Allpaths-LG was able to finish the assembly process."
+  * However, this was for an instance where the module was HANGING, not CRASHING
+
+* Process killed with error 137; FillFragments
+
+# Attempt 7
