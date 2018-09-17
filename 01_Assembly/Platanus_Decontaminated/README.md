@@ -30,6 +30,7 @@ Libraries used:
 ## Results
 
 | Total contigs     | 5,393,208 |
+|-------------------|-----------|
 | Contigs > 10000bp |     9,576 |
 | Contigs > 1000bp  |   223,269 |
 | Contigs > 200bp   | 2,600,070 |
