@@ -1,3 +1,5 @@
+# Taken from the `SOAP_assembly_decontaminated_Test2` assembly
+
 |    Analysis    | Complete BUSCOs | Complete single-copy | Complete duplicated | Fragmented |   Missing   |
 |----------------|-----------------|----------------------|---------------------|------------|-------------|
 | Full assembly  |    86 (28.4%)   |      81 (26.7%)      |      5 (1.7%)       | 70 (23.1%) | 147 (48.5%) |
