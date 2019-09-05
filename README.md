@@ -19,3 +19,8 @@ Was sampled at Bönhamn, Sweden [Baltic], September 1 2007.
 
 Was sampled at Saltö, Sweden, 24th April 2014.
 
+# Assembly
+
+* /proj/data13/Fucus_vesiculosus_genome_project/01_Assembly/SOAP_assembly_decontaminated_Test2/Fucus_SOAP-2.scafSeq.1000.fst
+* md5: 35140f0ccb7e9bf43150b8cf25259ce3
+
